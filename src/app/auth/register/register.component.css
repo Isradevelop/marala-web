@@ -1,0 +1,21 @@
+#registerContainer {
+  background-color: var(--surface-f);
+  text-align: center;
+  margin: 0 auto;
+  padding: 25px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 50%;
+  box-shadow: 0px 0px 10px;
+}
+
+.p-inputgroup {
+  margin: 25px;
+  width: 90%;
+}
+
+@media (max-width: 600px) {
+  #registerContainer {
+    width: 90%;
+  }
+}

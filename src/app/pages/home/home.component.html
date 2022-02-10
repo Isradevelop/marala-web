@@ -1,0 +1,73 @@
+<div class="animate__animated animate__fadeInLeft">
+
+    <div id="carousel-container">
+        <h2>Nuestras marcas asociadas</h2>
+        <p-carousel [value]="images" [numVisible]="2" [responsiveOptions]="responsiveOptions" [numScroll]="1"
+            [autoplayInterval]="2000" [circular]="true">
+            <ng-template let-image pTemplate="item">
+                <img src="{{image.path}}" alt="">
+            </ng-template>
+        </p-carousel>
+    </div>
+
+    <div id="categories-container">
+        <h2>Categorías</h2>
+        <div id="cards-container">
+            <p-card header="Bebidas alcoholicas" [style]="{background:'grey'}" styleClass="p-card-shadow">
+                <img src="../../../assets/images/icon-beer.svg" alt="icono cerveza">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error
+                    repudiandae
+                    numquam deserunt
+                    quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate
+                    neque
+                    quas!</p>
+                <ng-template pTemplate="footer">
+                    <p-button label="Ir a categoría" icon="pi pi-check"></p-button>
+                </ng-template>
+            </p-card>
+
+            <p-card header="Bebidas sin alcohol" [style]="{background:'grey'}" styleClass="p-card-shadow">
+                <img src="../../../assets/images/icon-cola.svg" alt="icono refresco cola">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error
+                    repudiandae
+                    numquam deserunt
+                    quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate
+                    neque
+                    quas!</p>
+                <ng-template pTemplate="footer">
+                    <p-button label="Ir a categoría" icon="pi pi-check"></p-button>
+                </ng-template>
+            </p-card>
+
+            <p-card header="Menaje" [style]="{background:'grey'}" styleClass="p-card-shadow">
+                <img src="../../../assets/images/icon-vajilla.svg" alt="icono productos de limpieza">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error
+                    repudiandae
+                    numquam deserunt
+                    quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate
+                    neque
+                    quas!</p>
+                <ng-template pTemplate="footer">
+                    <p-button label="Ir a categoría" icon="pi pi-check"></p-button>
+                </ng-template>
+            </p-card>
+
+            <p-card header="Limpieza" [style]="{background:'grey'}" styleClass="p-card-shadow">
+                <img src="../../../assets/images/icon-cleaning.png" alt="icono productos de limpieza">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error
+                    repudiandae
+                    numquam deserunt
+                    quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate
+                    neque
+                    quas!</p>
+                <ng-template pTemplate="footer">
+                    <p-button label="Ir a categoría" icon="pi pi-check"></p-button>
+                </ng-template>
+            </p-card>
+        </div>
+
+        <div id="form-container">
+
+        </div>
+    </div>
+</div>

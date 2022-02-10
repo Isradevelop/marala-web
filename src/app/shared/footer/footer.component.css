@@ -1,0 +1,60 @@
+.div-footer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+}
+
+footer {
+  background-color: var(--surface-f);
+  padding: 10px;
+  border: 1px solid #475364;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color-text);
+}
+
+i {
+  margin-right: 5px;
+}
+
+#divMap {
+  width: 350px;
+  height: 200px;
+}
+
+
+
+/****************     RESPONSIVE     *************/
+
+@media (max-width: 914px) {
+
+  .div-footer {
+    display: block;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  footer {
+    width: 90%;
+    margin-top: 50px;
+    margin: 0 auto;
+  }
+
+  #divMap {
+    width: 100%;
+    margin: 0 auto
+  }
+}
+
+
+
+@media (max-width: 600px) {
+
+  #divMap {
+    width: 100%;
+  }
+}
