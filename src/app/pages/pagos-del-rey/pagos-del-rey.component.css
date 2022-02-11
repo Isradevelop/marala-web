@@ -1,0 +1,57 @@
+.background-image-solan {
+  width: 90%;
+  height: 720px;
+  background-image: url('../../../assets/images/background-pagos.jpg.crdownload');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 920px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.background-image-solan p {
+  background-color: rgb(182, 180, 180);
+  width: 25%;
+  padding: 20px;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 3px 3px 1px black;
+}
+
+.products-solan {
+  text-align: center;
+  background-color: var(--surface-f);
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 800px;
+}
+
+#cards-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding-left: 15px;
+}
+
+p-card {
+  flex-basis: 22%;
+  margin-bottom: 15px;
+  margin-right: 38px;
+  margin-left: 0px;
+  height: 600px;
+}
+
+img {
+  width: 200px;
+  height: 250px;
+}

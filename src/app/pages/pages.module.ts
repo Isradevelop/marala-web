@@ -8,6 +8,10 @@ import { LegalInfoComponent } from './legal-info/legal-info.component';
 import { PrivacityComponent } from './privacity/privacity.component';
 import { UseConditionsComponent } from './use-conditions/use-conditions.component';
 import { CategoriesComponent } from './categories/categories.component';
+import { AlhambraComponent } from './alhambra/alhambra.component';
+import { BarbadilloComponent } from './barbadillo/barbadillo.component';
+import { SolanDeCabrasComponent } from './solan-de-cabras/solan-de-cabras.component';
+import { PagosDelReyComponent } from './pagos-del-rey/pagos-del-rey.component';
 
 
 
@@ -19,6 +23,10 @@ import { CategoriesComponent } from './categories/categories.component';
     PrivacityComponent,
     UseConditionsComponent,
     CategoriesComponent,
+    AlhambraComponent,
+    BarbadilloComponent,
+    SolanDeCabrasComponent,
+    PagosDelReyComponent,
   ],
   imports: [
     CommonModule,

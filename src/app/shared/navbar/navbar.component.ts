@@ -41,6 +41,18 @@ export class NavbarComponent implements OnInit {
         icon: 'pi pi-fw pi-pencil',
         routerLink: "pages/contact"
       },
+      {
+        label: 'Nuestras marcas',
+        icon: 'pi pi-fw pi-star',
+        items: [
+          { label: 'Cervezas Alhambra', routerLink: "pages/alhambra" },
+          { label: 'Solán de Cabras', routerLink: "pages/solan-de-cabras" },
+          { label: 'Pagos del Rey', routerLink: "pages/pagos-del-rey" },
+          { label: 'Veganzones' },
+          { label: 'Barbadillo', routerLink: "pages/barbadillo" },
+          { label: 'Riska' }
+        ]
+      }
     ];
   }
 

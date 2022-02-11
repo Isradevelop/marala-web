@@ -13,27 +13,27 @@ export class FooterComponent implements OnInit {
   schedules: any = [
     {
       day: 'Lunes',
-      hours: '7:30 - 16:00'
+      hours: '8:00 - 16:00'
     },
     {
       day: 'Martes',
-      hours: '7:30 - 16:00'
+      hours: '8:00 - 16:00'
     },
     {
       day: 'Miércoles',
-      hours: '7:30 - 16:00'
+      hours: '8:00 - 16:00'
     },
     {
       day: 'Jueves',
-      hours: '7:30 - 16:00'
+      hours: '8:00 - 16:00'
     },
     {
       day: 'Viernes',
-      hours: '7:30 - 16:00'
+      hours: '8:00 - 15:00'
     },
     {
       day: 'Sábado',
-      hours: '8:00 - 15:00'
+      hours: '10:00 - 14:00'
     },
     {
       day: 'Domingo',

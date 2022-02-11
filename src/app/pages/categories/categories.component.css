@@ -21,7 +21,7 @@ h2 {
   padding-right: 5px;
   margin-top: 80px;
   margin-bottom: 80px;
-  width: 50%;
+  width: 80%;
   box-shadow: 0px 0px 10px;
 
 }
@@ -34,7 +34,7 @@ h2 {
 }
 
 p-card {
-  flex-basis: 45%;
+  flex-basis: 30%;
   margin-bottom: 15px;
   margin-right: 38px;
   margin-left: 0px;
