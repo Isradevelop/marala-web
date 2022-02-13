@@ -12,6 +12,8 @@ import { AlhambraComponent } from './alhambra/alhambra.component';
 import { BarbadilloComponent } from './barbadillo/barbadillo.component';
 import { SolanDeCabrasComponent } from './solan-de-cabras/solan-de-cabras.component';
 import { PagosDelReyComponent } from './pagos-del-rey/pagos-del-rey.component';
+import { VeganzonesComponent } from './veganzones/veganzones.component';
+import { RiskaComponent } from './riska/riska.component';
 
 
 
@@ -27,6 +29,8 @@ import { PagosDelReyComponent } from './pagos-del-rey/pagos-del-rey.component';
     BarbadilloComponent,
     SolanDeCabrasComponent,
     PagosDelReyComponent,
+    VeganzonesComponent,
+    RiskaComponent,
   ],
   imports: [
     CommonModule,

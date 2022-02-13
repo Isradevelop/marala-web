@@ -10,6 +10,8 @@ import { PagosDelReyComponent } from './pagos-del-rey/pagos-del-rey.component';
 import { PrivacityComponent } from './privacity/privacity.component';
 import { SolanDeCabrasComponent } from './solan-de-cabras/solan-de-cabras.component';
 import { UseConditionsComponent } from './use-conditions/use-conditions.component';
+import { VeganzonesComponent } from './veganzones/veganzones.component';
+import { RiskaComponent } from './riska/riska.component';
 
 
 const routes: Routes = [
@@ -43,6 +45,14 @@ const routes: Routes = [
             {
                 path: 'pagos-del-rey',
                 component: PagosDelReyComponent
+            },
+            {
+                path: 'veganzones',
+                component: VeganzonesComponent
+            },
+            {
+                path: 'riska',
+                component: RiskaComponent
             },
             {
                 path: 'legal-info',

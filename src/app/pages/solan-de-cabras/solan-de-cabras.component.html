@@ -1,13 +1,12 @@
 <div class="alhambra-container">
     <div class="background-image-solan">
-        <h2>Solán de Cabras</h2>
-        <p class="animate__animated animate__fadeInLeft">
+        <p class="animate__animated animate__fadeInLeft" id="first-p">
             Solán de Cabras es una de las marcas que integran Mahou San Miguel desde 2011, año de su adquisición. Mahou
             San Miguel es empresa familiar, 100% española con más de 2.800 profesionales.
             Potenciamos el desarrollo a través de la internacionalización, la innovación y la mejora continua y estamos
             firmemente comprometidos con la sociedad.
         </p>
-        <p class="animate__animated animate__fadeInLeft">
+        <p class="animate__animated animate__fadeInLeft" id="second-p">
             Nuestro principal propósito es generar valor de forma sostenible para nuestros clientes, colaboradores,
             accionistas, profesionales y para la sociedad en su conjunto, reafirmando nuestro compromiso con la economía
             española.
@@ -17,8 +16,17 @@
         </p>
     </div>
 
+    <div class="hidden">
+        <p class="animate__animated animate__fadeInLeft">
+            Solán de Cabras es una de las marcas que integran Mahou San Miguel desde 2011, año de su adquisición. Mahou
+            San Miguel es empresa familiar, 100% española con más de 2.800 profesionales.
+            Potenciamos el desarrollo a través de la internacionalización, la innovación y la mejora continua y estamos
+            firmemente comprometidos con la sociedad.
+        </p>
+    </div>
+
     <div class="products-solan">
-        <h2>Productos Solán de Cabras</h2>
+        <h2>Solán de Cabras</h2>
         <div id="cards-container">
             <p-card header="Solán de Cabras envase vidrio 50cl" [style]="{background:'grey'}"
                 styleClass="p-card-shadow">
@@ -59,7 +67,8 @@
                     <p-button label="Ir al producto" icon="pi pi-check"></p-button>
                 </ng-template>
             </p-card>
-            <p-card header="Solán de Cabras DEFENCE" [style]="{background:'grey'}" styleClass="p-card-shadow">
+            <p-card header="Solán de Cabras DEFENCE. Pomelo rosa y azahar" [style]="{background:'grey'}"
+                styleClass="p-card-shadow">
                 <img src="../../../assets/images/product-solan-pomelo.png" alt="imagen Solán de Cabras DEFENCE">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error
                     repudiandae

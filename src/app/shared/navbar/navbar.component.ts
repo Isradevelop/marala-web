@@ -48,9 +48,9 @@ export class NavbarComponent implements OnInit {
           { label: 'Cervezas Alhambra', routerLink: "pages/alhambra" },
           { label: 'Solán de Cabras', routerLink: "pages/solan-de-cabras" },
           { label: 'Pagos del Rey', routerLink: "pages/pagos-del-rey" },
-          { label: 'Veganzones' },
+          { label: 'Veganzones', routerLink: "pages/veganzones" },
           { label: 'Barbadillo', routerLink: "pages/barbadillo" },
-          { label: 'Riska' }
+          { label: 'Riska', routerLink: "pages/riska" }
         ]
       }
     ];

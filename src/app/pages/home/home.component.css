@@ -67,6 +67,10 @@ p-card :hover {
   p-card {
     flex-basis: 42%;
   }
+
+  #carousel-container {
+    width: 100%;
+  }
 }
 
 

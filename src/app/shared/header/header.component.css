@@ -11,6 +11,12 @@ a {
   margin: 25px;
 }
 
+@media (max-width: 829px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
 @media (max-width: 600px) {
   h1 {
     width: 100%;
@@ -21,7 +27,13 @@ a {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 439px) {
+  h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 398px) {
   h1 {
     font-size: 25px;
   }

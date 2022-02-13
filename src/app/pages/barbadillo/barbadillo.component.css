@@ -1,3 +1,8 @@
+#hidden {
+  visibility: hidden;
+  height: 0px;
+}
+
 .background-image-barbadillo {
   width: 90%;
   height: 650px;
@@ -53,4 +58,168 @@ p-card {
 img {
   width: 200px;
   height: 200px;
+}
+
+
+/*************   RESPONSIVE   ***********/
+
+@media (max-width: 1620px) {
+  p-card {
+    margin-right: 32px;
+  }
+}
+
+@media (max-width: 1531px) {
+  p-card {
+    flex-basis: 30%;
+    margin-right: 30px;
+  }
+
+  .background-image-barbadillo p {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1344px) {
+  .background-image-barbadillo p {
+    width: 40%;
+  }
+
+  .background-image-barbadillo {
+    background-size: contain;
+    height: 500px;
+  }
+}
+
+@media (max-width: 1219px) {
+  .background-image-barbadillo {
+    height: 450px;
+  }
+
+  .background-image-barbadillo p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1162px) {
+  p-card {
+    flex-basis: 40%;
+    margin-right: 55px;
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 1116px) {
+  .background-image-barbadillo p {
+    width: 50%;
+  }
+
+  p-card {
+    flex-basis: 40%;
+    margin-right: 35px;
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 1058px) {
+  p-card {
+    flex-basis: 45%;
+    margin-right: 10px;
+    margin-left: 25px;
+  }
+
+  .background-image-barbadillo {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media (max-width: 999px) {
+
+  #hidden {
+    visibility: visible;
+    width: 85%;
+    text-align: center;
+    margin-left: 30px;
+    height: 150px;
+  }
+
+  #barbadillo-text {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 912px) {
+  p-card {
+    flex-basis: 90%;
+  }
+
+  .background-image-barbadillo {
+    height: 350px;
+  }
+
+}
+
+@media (max-width: 829px) {
+
+  .background-image-barbadillo {
+    height: 300px;
+  }
+
+  #hidden {
+    height: 200px;
+  }
+}
+
+@media (max-width: 674px) {
+
+  .background-image-barbadillo {
+    height: 250px;
+  }
+
+  #hidden {
+    height: 250px;
+  }
+}
+
+@media (max-width: 562px) {
+
+  .background-image-barbadillo {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .hidden {
+    visibility: visible;
+    height: 280px;
+    width: 90%;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 40px;
+  }
+
+}
+
+
+@media (max-width: 544px) {
+  .background-image-barbadillo {
+    height: 200px;
+  }
+
+  #hidden {
+    height: 320px;
+  }
+}
+
+@media (max-width: 449px) {
+  .background-image-barbadillo {
+    height: 150px;
+  }
+
+  #hidden {
+    height: 380px;
+  }
 }

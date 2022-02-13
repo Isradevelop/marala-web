@@ -1,0 +1,247 @@
+.hidden {
+  visibility: hidden;
+  height: 0px;
+}
+
+.background-image-veganzones {
+  width: 90%;
+  height: 900px;
+  background-image: url('../../../assets/images/background-veganzones2.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50px;
+  background-size: contain;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.background-image-veganzones p {
+  background-color: rgb(182, 180, 180);
+  width: 20%;
+  padding: 20px;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 3px 3px 1px black;
+  font-size: 14px;
+  float: right;
+  margin-right: 45px;
+}
+
+.products-veganzones {
+  text-align: center;
+  background-color: var(--surface-f);
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+#cards-container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding-left: 15px;
+
+}
+
+p-card {
+  flex-basis: 22%;
+  margin-bottom: 15px;
+  margin-right: 38px;
+  margin-left: 0px;
+}
+
+img {
+  width: 100px;
+  height: 220px;
+}
+
+
+/*************   RESPONSIVE   ***********/
+
+@media (max-width: 1620px) {
+  p-card {
+    margin-right: 32px;
+  }
+}
+
+@media (max-width: 1531px) {
+  p-card {
+    flex-basis: 30%;
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 1344px) {
+
+  .background-image-veganzones p {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .background-image-veganzones {
+    height: 750px;
+
+  }
+
+  .background-image-veganzones p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1219px) {
+  .background-image-veganzones {
+    height: 700px;
+  }
+}
+
+@media (max-width: 1162px) {
+  p-card {
+    flex-basis: 40%;
+    margin-right: 55px;
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 1116px) {
+  .background-image-veganzones p {
+    width: 25%;
+  }
+
+  p-card {
+    flex-basis: 40%;
+    margin-right: 35px;
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 1058px) {
+  p-card {
+    flex-basis: 45%;
+    margin-right: 10px;
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 999px) {
+  .background-image-veganzones {
+    width: 100%;
+    height: 650px;
+  }
+}
+
+@media (max-width: 912px) {
+  p-card {
+    flex-basis: 90%;
+  }
+
+  .background-image-veganzones {
+    height: 600px;
+  }
+
+  .background-image-veganzones p {
+    width: 25%;
+  }
+}
+
+@media (max-width: 878px) {
+  .hidden {
+    visibility: visible;
+    width: 85%;
+    height: 200px;
+    text-align: center;
+    margin-left: 45px;
+  }
+
+  .background-image-veganzones p {
+    visibility: hidden;
+    height: 0px;
+  }
+}
+
+@media (max-width: 829px) {
+  .background-image-veganzones {
+    height: 550px;
+  }
+}
+
+@media (max-width: 720px) {
+  .background-image-veganzones {
+    height: 480px;
+  }
+
+  .hidden {
+    height: 230px;
+  }
+}
+
+@media (max-width: 620px) {
+  .background-image-veganzones {
+    height: 420px;
+  }
+
+  .hidden {
+    height: 250px;
+  }
+}
+
+@media (max-width: 562px) {
+  .background-image-veganzones {
+    height: 370px;
+    padding: 0px;
+  }
+
+  .hidden {
+    height: 330px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+}
+
+
+@media (max-width: 544px) {
+  .background-image-veganzones {
+    height: 330px;
+  }
+
+  .hidden {
+    margin-left: 28px;
+  }
+}
+
+@media (max-width: 449px) {
+  .background-image-veganzones {
+    height: 280px;
+  }
+
+  .hidden {
+    height: 380px;
+  }
+}
+
+@media (max-width: 377px) {
+  .background-image-veganzones {
+    height: 250px;
+  }
+
+  .hidden {
+    height: 430px;
+  }
+}
+
+@media (max-width: 330px) {
+  .hidden {
+    height: 440px;
+  }
+}
