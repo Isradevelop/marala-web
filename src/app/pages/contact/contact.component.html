@@ -1,4 +1,31 @@
 <div class="animate__animated animate__fadeInLeft">
+    <div id="contact-form-container">
+
+        <h2>¿Aún no tienes cuenta con Marala Hostelería?</h2>
+        <p>
+            Si creas cuenta con nosotros podrás ver los precios de los productos, acceder a ofertas especiales y mucho
+            más!!!
+            <br>
+            <br>
+            Introduce tu número de teléfono y un comercial se pondrá en contecto contigo lo antes posible.
+        </p>
+        <br>
+        <div class="grid p-fluid">
+
+            <input type="text" pInputText placeholder="Pon aquí el número de teléfono al que quieres que te llamemos" />
+
+            <textarea pInputTextarea rows="15" placeholder="Escribe aquí..." [autoResize]="autoResize"></textarea>
+
+            <div class="p-inputgroup">
+                <p-button label="Llámame!!">
+                    <i class="pi pi-phone animate__animated animate__tada animate__infinite"
+                        style="font-size: 2rem"></i>
+                </p-button>
+            </div>
+
+        </div>
+
+    </div>
 
     <h2>Ven a conocernos!!</h2>
     <div id="map-container">
@@ -36,23 +63,4 @@
     </div>
 
 
-    <div id="contact-form-container">
-
-        <h2>¿Tienes alguna pregunta?</h2>
-        <p>Envía tu mensaje y nos pondremos en contacto contigo lo antes posible, y no olvides dejar tu
-            correo electrónico para que nos pongamos en contacto contigo!!</p>
-        <br>
-        <div class="grid p-fluid">
-
-            <input type="email" pInputText placeholder="Introduce tu correo electrónico..." />
-
-            <textarea pInputTextarea rows="15" placeholder="Escribe aquí..." [autoResize]="autoResize"></textarea>
-
-            <div class="p-inputgroup">
-                <p-button label="Enviar"></p-button>
-            </div>
-
-        </div>
-
-    </div>
 </div>

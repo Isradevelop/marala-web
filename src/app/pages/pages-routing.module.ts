@@ -31,6 +31,10 @@ const routes: Routes = [
                 component: ContactComponent
             },
             {
+                path: 'products',
+                loadChildren: () => import('./products/products.module').then(mod => mod.ProductsModule),
+            },
+            {
                 path: 'alhambra',
                 component: AlhambraComponent
             },

@@ -1,1 +1,73 @@
-<p>product-list works!</p>
+<div id="product-list-container">
+    <aside>
+        <p-slideMenu [model]="items" [viewportHeight]="500" effectDuration="500"></p-slideMenu>
+    </aside>
+    <div id="product-list-content">
+        <div id="search-product-container">
+            <input type="text" pInputText placeholder="Introduce artículo a buscar">
+            <p-button label="Buscar">
+                <i class="pi pi-search" style="font-size: 1rem"></i>
+            </p-button>
+        </div>
+        <div id="products-found">
+            <h2>Productos encontrados</h2>
+            <div id="cards-container">
+                <p-card header="Alhambra Lager Singular" [style]="{background:'grey'}" styleClass="p-card-shadow">
+                    <img src="../../../assets/images/product-alhambra-lager-singular.jpg"
+                        alt="imagen Alhambra Lager Singular">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error
+                        repudiandae
+                        numquam deserunt
+                        quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse,
+                        cupiditate
+                        neque
+                        quas!</p>
+                    <ng-template pTemplate="footer">
+                        <p-button label="Ir al producto" icon="pi pi-check" routerLink="1"></p-button>
+                    </ng-template>
+                </p-card>
+                <p-card header="Alhambra Reserva 1925" [style]="{background:'grey'}" styleClass="p-card-shadow">
+                    <img src="../../../assets/images/product-alhambra-verde.jpg" alt="imagen Alhambra Reserva 1925">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error
+                        repudiandae
+                        numquam deserunt
+                        quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse,
+                        cupiditate
+                        neque
+                        quas!</p>
+                    <ng-template pTemplate="footer">
+                        <p-button label="Ir al producto" icon="pi pi-check"></p-button>
+                    </ng-template>
+                </p-card>
+                <p-card header="Alhambra Reserva Roja" [style]="{background:'grey'}" styleClass="p-card-shadow">
+                    <img src="../../../assets/images/product-alhambra-roja.jpg" alt="imagen Alhambra Reserva Roja">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error
+                        repudiandae
+                        numquam deserunt
+                        quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse,
+                        cupiditate
+                        neque
+                        quas!</p>
+                    <ng-template pTemplate="footer">
+                        <p-button label="Ir al producto" icon="pi pi-check"></p-button>
+                    </ng-template>
+                </p-card>
+                <p-card header="Alhambra Lager Singular Sin Alcohol" [style]="{background:'grey'}"
+                    styleClass="p-card-shadow">
+                    <img src="../../../assets/images/product-alhambra-sin-alcohol.jpeg"
+                        alt="imagen Alhambra Sin Alcohol">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error
+                        repudiandae
+                        numquam deserunt
+                        quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse,
+                        cupiditate
+                        neque
+                        quas!</p>
+                    <ng-template pTemplate="footer">
+                        <p-button label="Ir al producto" icon="pi pi-check"></p-button>
+                    </ng-template>
+                </p-card>
+            </div>
+        </div>
+    </div>
+</div>

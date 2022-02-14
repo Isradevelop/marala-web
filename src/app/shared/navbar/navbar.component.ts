@@ -11,7 +11,7 @@ export class NavbarComponent implements OnInit {
 
   constructor(private apiService: ApiService) {
 
-    this.apiService.getToken().subscribe(token => { console.log(token) });
+    //this.apiService.getToken().subscribe(token => { console.log(token) });
 
 
   }
@@ -30,6 +30,7 @@ export class NavbarComponent implements OnInit {
       {
         label: 'Productos',
         icon: 'pi pi-fw pi-box',
+        routerLink: "pages/products"
       },
       {
         label: 'Categorías',

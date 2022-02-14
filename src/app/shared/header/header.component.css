@@ -31,6 +31,10 @@ a {
   h1 {
     font-size: 35px;
   }
+
+  header {
+    padding-right: 0px;
+  }
 }
 
 @media (max-width: 398px) {

@@ -10,6 +10,9 @@ import { CarouselModule } from 'primeng/carousel';
 import { PasswordModule } from 'primeng/password';
 import { DividerModule } from 'primeng/divider';
 import { InputTextareaModule } from 'primeng/inputtextarea';
+import { ScrollTopModule } from 'primeng/scrolltop';
+import { ScrollPanelModule } from 'primeng/scrollpanel';
+import { SlideMenuModule } from 'primeng/slidemenu';
 
 
 @NgModule({
@@ -24,7 +27,10 @@ import { InputTextareaModule } from 'primeng/inputtextarea';
     CarouselModule,
     PasswordModule,
     DividerModule,
-    InputTextareaModule
+    InputTextareaModule,
+    ScrollTopModule,
+    ScrollPanelModule,
+    SlideMenuModule
   ],
   exports: [
     ButtonModule,
@@ -35,7 +41,10 @@ import { InputTextareaModule } from 'primeng/inputtextarea';
     CarouselModule,
     PasswordModule,
     DividerModule,
-    InputTextareaModule
+    InputTextareaModule,
+    ScrollTopModule,
+    ScrollPanelModule,
+    SlideMenuModule
   ]
 })
 export class PrimengModule { }

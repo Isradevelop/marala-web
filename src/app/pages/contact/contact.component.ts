@@ -15,7 +15,9 @@ export class ContactComponent implements OnInit {
 
   public autoResize: boolean = true;
 
-  constructor(private apiService: ApiService) { }
+  constructor(private apiService: ApiService) {
+    window.scrollTo(0, 0);
+  }
 
   ngOnInit(): void {
 

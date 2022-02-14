@@ -6,16 +6,11 @@ import { ProductListComponent } from './product-list/product-list.component';
 const routes: Routes = [
   {
     path: '',
-    children: [
-      {
-        path: '/:id',
-        component: ProductDetailsComponent
-      },
-      {
-        path: '',
-        component: ProductListComponent
-      }
-    ]
+    component: ProductListComponent
+  },
+  {
+    path: ':id',
+    component: ProductDetailsComponent
   },
 ];
 

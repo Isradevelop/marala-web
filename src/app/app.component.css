@@ -1,0 +1,6 @@
+:host ::ng-deep .custom-scrolltop {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+}

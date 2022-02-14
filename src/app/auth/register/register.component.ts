@@ -11,7 +11,9 @@ export class RegisterComponent implements OnInit {
   value3: string;
   value4: string;
 
-  constructor() { }
+  constructor() {
+    window.scrollTo(0, 0);
+  }
 
   ngOnInit(): void {
   }

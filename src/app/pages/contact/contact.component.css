@@ -25,6 +25,11 @@ input {
   margin-bottom: 25px;
 }
 
+p-button i {
+  margin-right: 15px;
+}
+
+
 
 #contact-form-container {
   text-align: center;
