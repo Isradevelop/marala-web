@@ -1,6 +1,11 @@
-<div id="product-list-container">
+<div id="product-list-container" class="animate__animated animate__fadeInLeft">
     <aside>
-        <p-slideMenu [model]="items" [viewportHeight]="500" effectDuration="500"></p-slideMenu>
+        <div id="slideMenu-container">
+            <p-slideMenu [model]="items" [viewportHeight]="500" effectDuration="500"></p-slideMenu>
+        </div>
+        <div id="panelMenu-container">
+            <p-panelMenu [model]="items" [style]="{'width':'100%'}"></p-panelMenu>
+        </div>
     </aside>
     <div id="product-list-content">
         <div id="search-product-container">

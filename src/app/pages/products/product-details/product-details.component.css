@@ -28,3 +28,42 @@ a {
   text-decoration: underline;
   margin-left: 35px;
 }
+
+
+/*//////////////          RESPONSIVE      //////////////*/
+
+@media(max-width:999px) {
+  img {
+    width: 100%;
+  }
+}
+
+@media(max-width:824px) {
+  #product-detail-container {
+    display: list-item;
+  }
+
+  img {
+    width: 55%;
+  }
+
+  h3 {
+    margin: 0px;
+  }
+}
+
+@media(max-width:393px) {
+  #info-footer {
+    font-size: 13px;
+  }
+}
+
+@media(max-width:354px) {
+  #info-description {
+    font-size: 12px;
+  }
+
+  #info-footer {
+    font-size: 12px;
+  }
+}

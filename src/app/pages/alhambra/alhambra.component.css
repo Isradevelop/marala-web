@@ -19,6 +19,11 @@ h2 {
   font-size: 40px;
 }
 
+a {
+  color: rgb(228, 213, 85);
+  text-decoration: underline;
+}
+
 .background-image-alhambra p {
   background-color: rgb(182, 180, 180, 0.8);
   width: 22%;

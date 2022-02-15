@@ -13,6 +13,7 @@ import { InputTextareaModule } from 'primeng/inputtextarea';
 import { ScrollTopModule } from 'primeng/scrolltop';
 import { ScrollPanelModule } from 'primeng/scrollpanel';
 import { SlideMenuModule } from 'primeng/slidemenu';
+import { PanelMenuModule } from 'primeng/panelmenu';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { SlideMenuModule } from 'primeng/slidemenu';
     InputTextareaModule,
     ScrollTopModule,
     ScrollPanelModule,
-    SlideMenuModule
+    SlideMenuModule,
+    PanelMenuModule
   ],
   exports: [
     ButtonModule,
@@ -44,7 +46,8 @@ import { SlideMenuModule } from 'primeng/slidemenu';
     InputTextareaModule,
     ScrollTopModule,
     ScrollPanelModule,
-    SlideMenuModule
+    SlideMenuModule,
+    PanelMenuModule
   ]
 })
 export class PrimengModule { }

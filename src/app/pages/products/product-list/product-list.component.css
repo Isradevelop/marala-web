@@ -4,6 +4,10 @@
   display: flex;
 }
 
+#panelMenu-container {
+  visibility: hidden;
+}
+
 aside {
   margin-right: 50px;
   margin-top: 93px;
@@ -56,4 +60,96 @@ p-card {
 img {
   width: 200px;
   height: 200px;
+}
+
+
+/*//////////////    RESPONSIVE     //////////*/
+
+@media(max-width:1415px) {
+  #products-found {
+    width: 95%;
+  }
+}
+
+@media(max-width:1365px) {
+
+  aside {
+    margin-right: 30px;
+  }
+
+  #product-list-container {
+    padding-left: 25px;
+  }
+}
+
+@media(max-width:1221px) {
+  #products-found {
+    padding-left: 20px;
+  }
+}
+
+@media(max-width:1121px) {
+  #products-found {
+    padding-left: 5px;
+  }
+}
+
+@media(max-width:1074px) {
+  p-card {
+    flex-basis: 45%;
+  }
+}
+
+@media(max-width:832px) {
+  #search-product-container input {
+    width: 250px;
+  }
+}
+
+@media(max-width:808px) {
+  p-card {
+    flex-basis: 100%;
+  }
+}
+
+@media(max-width:632px) {
+  #search-product-container input {
+    width: 125px;
+  }
+
+  #products-found {
+    padding-left: 0px;
+  }
+}
+
+@media(max-width:579px) {
+  #product-list-container {
+    display: unset
+  }
+
+  #slideMenu-container {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+  }
+
+  #search-product-container input {
+    width: 60%;
+    margin-top: 50px;
+  }
+
+  #panelMenu-container {
+    margin-bottom: 50px;
+    margin: 0 auto;
+  }
+
+  aside {
+    padding: 0;
+    margin: 0;
+  }
+
+  #products-found {
+    width: 100%;
+    margin-bottom: 15px;
+  }
 }

@@ -6,7 +6,12 @@ h1 {
   font-size: 55px;
 }
 
-a {
+#icon-go-back {
+  float: left;
+  margin: 25px;
+}
+
+#icon-user {
   float: right;
   margin: 25px;
 }
@@ -20,6 +25,7 @@ a {
 @media (max-width: 600px) {
   h1 {
     width: 100%;
+    font-size: 30px;
   }
 
   header {
@@ -27,9 +33,9 @@ a {
   }
 }
 
-@media (max-width: 439px) {
+@media (max-width: 440px) {
   h1 {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   header {
@@ -37,8 +43,8 @@ a {
   }
 }
 
-@media (max-width: 398px) {
+@media (max-width: 355px) {
   h1 {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
