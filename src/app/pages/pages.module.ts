@@ -14,6 +14,7 @@ import { SolanDeCabrasComponent } from './solan-de-cabras/solan-de-cabras.compon
 import { PagosDelReyComponent } from './pagos-del-rey/pagos-del-rey.component';
 import { VeganzonesComponent } from './veganzones/veganzones.component';
 import { RiskaComponent } from './riska/riska.component';
+import { CookiesComponent } from './cookies/cookies.component';
 
 
 
@@ -31,6 +32,7 @@ import { RiskaComponent } from './riska/riska.component';
     PagosDelReyComponent,
     VeganzonesComponent,
     RiskaComponent,
+    CookiesComponent,
   ],
   imports: [
     CommonModule,

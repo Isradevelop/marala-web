@@ -6,7 +6,7 @@
 .background-image-pagos {
   width: 90%;
   height: 720px;
-  background-image: url('../../../assets/images/background-pagos.jpg');
+  background-image: url('../../../assets/images/background-pdr.jpg');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 100% 920px;
@@ -22,11 +22,12 @@ h2 {
 
 .background-image-pagos p {
   background-color: rgb(182, 180, 180);
-  width: 25%;
+  width: 20%;
   padding: 20px;
   color: black;
   border-radius: 5px;
   box-shadow: 3px 3px 1px black;
+  font-size: 14px;
 }
 
 .products-pagos {

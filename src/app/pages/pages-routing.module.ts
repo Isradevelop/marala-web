@@ -12,6 +12,7 @@ import { SolanDeCabrasComponent } from './solan-de-cabras/solan-de-cabras.compon
 import { UseConditionsComponent } from './use-conditions/use-conditions.component';
 import { VeganzonesComponent } from './veganzones/veganzones.component';
 import { RiskaComponent } from './riska/riska.component';
+import { CookiesComponent } from './cookies/cookies.component';
 
 
 const routes: Routes = [
@@ -69,6 +70,10 @@ const routes: Routes = [
             {
                 path: 'use-conditions',
                 component: UseConditionsComponent
+            },
+            {
+                path: 'cookies',
+                component: CookiesComponent
             },
             {
                 path: '**',
