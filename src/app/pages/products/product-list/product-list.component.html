@@ -9,15 +9,16 @@
     </aside>
     <div id="product-list-content">
         <div id="search-product-container">
-            <input type="text" pInputText placeholder="Introduce artículo a buscar">
-            <p-button label="Buscar">
+            <input type="text" pInputText placeholder="{{'enter item to search' | translate}}">
+            <p-button label="{{'search' | translate}}">
                 <i class="pi pi-search" style="font-size: 1rem"></i>
             </p-button>
         </div>
         <div id="products-found">
-            <h2>Productos encontrados</h2>
+            <h2>{{'products found' |translate}}</h2>
             <div id="cards-container">
-                <p-card header="Alhambra Lager Singular" [style]="{background:'grey'}" styleClass="p-card-shadow">
+                <p-card header="Alhambra Lager Singular" [style]="{background:'white', color:'black'}"
+                    styleClass="p-card-shadow">
                     <img src="../../../assets/images/product-alhambra-lager-singular.jpg"
                         alt="imagen Alhambra Lager Singular">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error
@@ -28,10 +29,11 @@
                         neque
                         quas!</p>
                     <ng-template pTemplate="footer">
-                        <p-button label="Ir al producto" icon="pi pi-check" routerLink="1"></p-button>
+                        <p-button label="{{'go to product' | translate}}" icon="pi pi-check" routerLink="1"></p-button>
                     </ng-template>
                 </p-card>
-                <p-card header="Alhambra Reserva 1925" [style]="{background:'grey'}" styleClass="p-card-shadow">
+                <p-card header="Alhambra Reserva 1925" [style]="{background:'white', color:'black'}"
+                    styleClass="p-card-shadow">
                     <img src="../../../assets/images/product-alhambra-verde.jpg" alt="imagen Alhambra Reserva 1925">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error
                         repudiandae
@@ -41,10 +43,11 @@
                         neque
                         quas!</p>
                     <ng-template pTemplate="footer">
-                        <p-button label="Ir al producto" icon="pi pi-check"></p-button>
+                        <p-button label="{{'go to product' | translate}}" icon="pi pi-check"></p-button>
                     </ng-template>
                 </p-card>
-                <p-card header="Alhambra Reserva Roja" [style]="{background:'grey'}" styleClass="p-card-shadow">
+                <p-card header="Alhambra Reserva Roja" [style]="{background:'white', color:'black'}"
+                    styleClass="p-card-shadow">
                     <img src="../../../assets/images/product-alhambra-roja.jpg" alt="imagen Alhambra Reserva Roja">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error
                         repudiandae
@@ -54,10 +57,10 @@
                         neque
                         quas!</p>
                     <ng-template pTemplate="footer">
-                        <p-button label="Ir al producto" icon="pi pi-check"></p-button>
+                        <p-button label="{{'go to product' | translate}}" icon="pi pi-check"></p-button>
                     </ng-template>
                 </p-card>
-                <p-card header="Alhambra Lager Singular Sin Alcohol" [style]="{background:'grey'}"
+                <p-card header="Alhambra Lager Singular Sin Alcohol" [style]="{background:'white', color:'black'}"
                     styleClass="p-card-shadow">
                     <img src="../../../assets/images/product-alhambra-sin-alcohol.jpeg"
                         alt="imagen Alhambra Sin Alcohol">
@@ -69,7 +72,7 @@
                         neque
                         quas!</p>
                     <ng-template pTemplate="footer">
-                        <p-button label="Ir al producto" icon="pi pi-check"></p-button>
+                        <p-button label="{{'go to product' | translate}}" icon="pi pi-check"></p-button>
                     </ng-template>
                 </p-card>
             </div>

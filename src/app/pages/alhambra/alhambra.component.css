@@ -20,7 +20,7 @@ h2 {
 }
 
 a {
-  color: rgb(228, 213, 85);
+  color: rgb(53, 50, 228);
   text-decoration: underline;
 }
 
@@ -61,6 +61,14 @@ p-card {
 img {
   width: 200px;
   height: 200px;
+}
+
+
+/*///////////     EFFECTS   //////////////*/
+
+p-card :hover {
+  transform: scale(1.1);
+  transition: 1s;
 }
 
 

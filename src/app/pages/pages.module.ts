@@ -15,6 +15,9 @@ import { PagosDelReyComponent } from './pagos-del-rey/pagos-del-rey.component';
 import { VeganzonesComponent } from './veganzones/veganzones.component';
 import { RiskaComponent } from './riska/riska.component';
 import { CookiesComponent } from './cookies/cookies.component';
+import { TranslateModule } from '@ngx-translate/core'
+
+
 
 
 
@@ -37,7 +40,8 @@ import { CookiesComponent } from './cookies/cookies.component';
   imports: [
     CommonModule,
     PagesRoutingModule,
-    PrimengModule
+    PrimengModule,
+    TranslateModule
   ]
 })
 export class PagesModule { }

@@ -6,6 +6,10 @@ h1 {
   font-size: 55px;
 }
 
+header {
+  padding-bottom: 25px;
+}
+
 #icon-go-back {
   float: left;
   margin: 25px;
@@ -15,6 +19,22 @@ h1 {
   float: right;
   margin: 25px;
 }
+
+img {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+span img {
+  width: 25px;
+  height: 25px;
+}
+
+
+
+
+/***************           RESPONSIVE       ****************/
 
 @media (max-width: 829px) {
   h1 {

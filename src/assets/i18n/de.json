@@ -1,0 +1,81 @@
+{
+    "hello":"Bonjour",
+    "back":"Hinter",
+    "login/logout":"Login / Logout",
+    "select a language": "Sprache wählen",
+    "spanish":"Spanisch",
+    "english":"Englisch",
+    "french": "Französisch",
+    "german":"Deutsch",
+    "russian":"Russisch",
+    "chinese":"Chinesisch",
+    
+    
+    "home":"Anfang",
+    "about_us":"Über uns",
+    "our_brands":"Unsere marken",
+    "search": "Suchen nach",
+
+    "our associated brands": "Unsere verbundenen Marken",
+
+    "categories": "Kategorien",
+    "alcoholic drinks":"Alkoholische Getränke",
+    "drinks without alcohol":"Alkoholfreie Getränke",
+    "household":"Haushalt",
+    "cleaning":"Reinigung",
+    "feeding":"Fütterung",
+    "others":"Andere",
+    "go to category":"Gehe zur kategorie",
+
+    "contact us":"Kontaktiere uns",
+    "direction":"Richtung",
+    "schedule":"Zeitplan",
+    "general conditions":"Allgemeine bedingungen",
+    "legal warning":"Rechtliche warnung",
+    "privacy policy":"Datenschutz-Bestimmungen",
+    "general conditions of use":"Allgemeine Nutzungsbedingungen",
+    "cookies policy":"Cookie-Richtlinie",
+    "day":"Tag",
+    "monday":"Montag",
+    "tuesday":"Dienstag",
+    "wednesday":"Mittwoch",
+    "thursday":"Donnerstag",
+    "friday":"Freitag",
+    "saturday":"Samstag",
+    "sunday":"Sonntag",
+    "closed":"Geschlossen",
+    "page created by":"Seite erstellt von",
+    "all rights reserved":"Alle Rechte vorbehalten",
+
+
+    "enter item to search":"Geben Sie das zu suchende Element ein",
+    "products found":"Produkte gefunden",
+    "go to product":"Zum produkt gehen",
+
+
+    "ul1_li1":"WAS SIND COOKIES?",
+    "p1_cookies.component.html":"ist verantwortlich für die Website http://www.maralahosteleria.com, und verwendet Cookies und/oder andere Dateien mit ähnlicher Funktionalität (im Folgenden „Cookies“). Cookies sind kleine Datendateien, die an den Computer oder das Telefon des Benutzers gesendet werden mobiles oder anderes Zugriffsgerät, wenn Sie eine Webseite besuchen und die Ihnen den Erhalt ermöglichen Informationen zu Ihrer Navigation oder ein Code, mit dem Sie die eindeutig identifizieren können Nutzername.",
+    "ul1_li2":"ART DER COOKIES UND VERWENDUNGSZWECKE",
+    "p2_cookies.component.html":"Die Website http://www.maralahosteleria.com verwendet Session-Cookies und/oder dauerhafte Cookies, die wiederum eigene Cookies und/oder Cookies von Drittanbietern sein können. Sitzungscookies sind Cookies, die dazu dienen, Daten zu sammeln und zu speichern, während der Benutzer auf eine Webseite zugreift. Sie werden normalerweise verwendet, um Informationen zu speichern, die nur für die Bereitstellung des vom Benutzer angeforderten Dienstes bei einer einzigen Gelegenheit von Interesse sind. Persistente Cookies sind eine Art von Cookies, bei denen die Daten weiterhin im Endgerät gespeichert und für einen vom Cookie-Verantwortlichen festgelegten Zeitraum, der von wenigen Minuten bis zu mehreren Jahren reichen kann, abgerufen und verarbeitet werden können. Eigene Cookies: Cookies, die vom Verantwortlichen der Website Marala Hostelería, S.L erstellt oder verwaltet werden. Die Website http://www.maralahosteleria.com verwendet ihre eigenen Cookies für folgende Zwecke:",
+    "ul2_li1_title":"Techniken:",
+    "ul2_li1_body":"Sie ermöglichen dem Benutzer, die Verwendung der verschiedenen Optionen oder Dienste zu durchsuchen, die darin vorhanden sind, wie z. B. die Kontrolle des Datenverkehrs und der Datenkommunikation, die Identifizierung der Sitzung, den Zugriff auf Teile mit eingeschränktem Zugriff, die Verwendung von Sicherheitselementen während des Surfens, das Speichern von Inhalten.",
+    "ul2_li2_title":"Personalisierung:",
+    "ul2_li2_body":"Dem Benutzer den Zugriff auf den Dienst mit einigen vordefinierten allgemeinen Merkmalen ermöglichen, die auf einer Reihe von Kriterien im Endgerät des Benutzers basieren, wie z. B. das Erinnern von Videowiedergabepräferenzen",
+    "p3_cookies.component.html":"Cookies von Drittanbietern: Cookies, die von Dienstleistern außerhalb von Marala Hostelería, S.L. verwaltet werden."
+    ,"ul1_li3":"DEAKTIVIERUNG ODER LÖSCHEN VON COOKIES",
+    "p4":"Die meisten Webbrowser ermöglichen es Ihnen, die Präferenzen des Benutzers bezüglich der Verwendung von Cookies jederzeit zu verwalten. Der Benutzer kann seinen Browser so einstellen, dass er Cookies ablehnt oder bestimmte Cookies nach eigenem Ermessen löscht. Für die Konfiguration von Cookies kann der Benutzer auf Folgendes zugreifen:",
+    "p5":"Der Nutzer kann seine Zustimmung zur Verwendung von Cookies in seinem Browser durch die oben genannten Hinweise oder durch die Installation eines Ablehnungssystems („Opt-Out“) in seinem Webbrowser widerrufen. Im Fall von Google-Analytics-Cookies kann das Opt-Out über den folgenden Link erfolgen. Der Benutzer muss berücksichtigen, dass einige Funktionen des Inhalts der Website http://www.maralahosteleria.com nur verfügbar sind, wenn die Installation von Cookies in Ihrem Browser zugelassen ist. Wenn Sie sich entscheiden, bestimmte Cookies (je nach Zweck) nicht zu akzeptieren oder zu blockieren, kann dies die normale Funktion der Website ganz oder teilweise beeinträchtigen oder den Zugriff auf einige ihrer Dienste verhindern.",
+    "ul1_li4":"AKTUALISIERUNGEN UND ÄNDERUNGEN IN DER COOKIES-RICHTLINIE",
+    "p6":"Marala Hostelería, S.L kann diese Cookie-Richtlinie aufgrund neuer gesetzlicher oder behördlicher Anforderungen ändern oder um diese Richtlinie an die Anweisungen der spanischen Datenschutzbehörde anzupassen. Wenn Sie weitere Informationen darüber wünschen, wie wir Cookies verwenden, können Sie uns eine E-Mail senden an: marala@maralahosteleria.com",
+
+
+
+    "header_use-conditions.component":"Nutzungsbedingungen für Websites und Inhalte",
+    "p1_use-conditions.component":"ALLGEMEINE INFORMATIONEN Die unten angegebenen Allgemeinen Geschäftsbedingungen (im Folgenden „Allgemeine Bedingungen“) regeln den Zugang, die Registrierung, das Browsen, das Herunterladen und die Nutzung jeder einzelnen Webseite, die sich unter der http-Domain befinden kann: // www.marala.com/es und seine jeweiligen Subdomains und Unterverzeichnisse (im Folgenden „Website“ oder „Websites“), wobei diese Domains Eigentum von Marala, SA sind Diese Allgemeinen Geschäftsbedingungen regeln auch den Zugriff, das Herunterladen und die Nutzung von anderen Informationen, Texten, Grafiken, Fotos, Bildern, Musik, Tönen, Computeranwendungen oder Konten auf sozialen Plattformen, die von Marala, S.A. erstellt, gestaltet, beworben oder verbreitet werden. und auf die von der Website oder einer anderen Webseite oder Computeranwendung aus zugegriffen werden kann (im Folgenden „Inhalt“). In Übereinstimmung mit den Bestimmungen von Artikel 10 des Gesetzes 34/2002 vom 11. Juli über Dienste der Informationsgesellschaft und des elektronischen Geschäftsverkehrs, Marala, S.A. (im Folgenden das „UNTERNEHMEN“) stellt seinen Benutzern die folgenden Registrierungsinformationen des Eigentümers der Website und/oder des Inhalts zur Verfügung:",
+    "p2_use-conditions.component":"Firmenname: Marala Hostelería, S.L.",
+    "p3_use-conditions.component":"Steueridentifikationsnummer: B02770667",
+    "p4_use-conditions.component":"Handelsdaten: Eingetragen im Handelsregister von Málaga, Band 5982, Buch 4889, Blatt 173, Abschnitt 8, Seite MA-157919, I/A 1",
+    "p5_use-conditions.component":"Eingetragener Sitz: Polígono Industrial La Rosa Calle Río Tinto nº 6 29120 Alhaurin El Grande Málaga",
+    "p6_use-conditions.component":"Kontakt: Sie können das UNTERNEHMEN per Post unter der Adresse des eingetragenen Sitzes oder der Rechtsabteilung des UNTERNEHMENS oder über die folgende E-Mail-Adresse kontaktieren: marala@marala.es.",
+    "p7_use-conditions.component":"DURCH ZUGRIFF, ANZEIGEN ODER NUTZUNG DER MATERIALIEN ODER DIENSTE, DIE AUF ODER ÜBER DIE „WEBSITE“ ZUGÄNGLICH SIND, ODER DER „INHALTE“, DIE AUF ODER ÜBER DIE „WEBSITE“ ODER ANDERE WEBSEITEN ODER COMPUTERANWENDUNGEN ZUGÄNGLICH SIND, ERKLÄRT DER BENUTZER, DASS SIE DIESE „ALLGEMEINEN BEDINGUNGEN“ ALS RECHTLICHES ÄQUIVALENT EINES VERBINDLICHEN, UNTERZEICHNETEN, SCHRIFTLICHEN DOKUMENTS. ALLGEMEINE NUTZUNGSBEDINGUNGEN DER „WEB-SITE“ UND DER „INHALTE“ Der Zugang und die Nutzung der Website des UNTERNEHMENS sowie der Zugang und die Nutzung der Inhalte unterliegen diesen Allgemeinen Bedingungen. Die Nutzung irgendeiner Webseite, die Eigentum des UNTERNEHMENS ist, oder der Inhalte schreibt den Zustand des Benutzers zu und impliziert die vollständige und vorbehaltlose Zustimmung des Benutzers zu allen Allgemeinen Bedingungen, die zu jedem Zeitpunkt, zu dem der Benutzer darauf zugreift, in Kraft sind. Das UNTERNEHMEN behält sich das Recht vor, diese Allgemeinen Geschäftsbedingungen jederzeit zu ändern. Wir empfehlen Ihnen, diese Allgemeinen Geschäftsbedingungen regelmäßig zu überprüfen, um sich über ihren Geltungsbereich und alle vorgenommenen Änderungen zu informieren. Durch den Zugriff auf die Websites und/oder die Inhalte, die Eigentum des UNTERNEHMENS sind, nach der Veröffentlichung der Bekanntmachung dieser Änderungen, Änderungen oder Aktualisierungen, stimmen Sie zu, die neuen Bedingungen einzuhalten. Dem Benutzer ist bekannt, dass der Zugriff und die Nutzung der Website und/oder der Inhalte unter seiner alleinigen und ausschließlichen Verantwortung erfolgen. Einige Dienste der UNTERNEHMEN-Websites und/oder einige Inhalte können besonderen Bedingungen, Vorschriften und Anweisungen unterliegen, die gegebenenfalls diese Allgemeinen Geschäftsbedingungen (im Folgenden „Sonderbedingungen“) ersetzen, ergänzen und/oder modifizieren müssen vom Benutzer akzeptiert, bevor der entsprechende Dienst bereitgestellt wird. Die Bereitstellung des Dienstes auf Wunsch des Benutzers setzt die ausdrückliche Annahme der gegebenenfalls geltenden Besonderen Bedingungen voraus. Der Begriff „Website“ umfasst beispielsweise, aber nicht einschränkend, alle Inhalte, Daten, Grafiken, Texte, Logos, Marken, Software, Bilder, Animationen, Musikkreationen, Videos, Töne, Zeichnungen, Fotografien, Ausdrücke und Informationen und andere darin enthalten, und im Allgemeinen alle Schöpfungen, die durch irgendwelche Mittel oder Hilfsmittel ausgedrückt werden, materiell oder immateriell, unabhängig davon, ob sie gemäß dem konsolidierten Text des spanischen Gesetzes über geistiges Eigentum für geistiges Eigentum anfällig sind oder nicht. Der Nutzer wird die auf der Website verfügbaren Dienste und Materialien sowie die Inhalte ausschließlich für private Zwecke nutzen, unter Ausschluss jeglicher anderen Nutzungsform und insbesondere unter Ausschluss jeglicher gewinnorientierten oder direkten oder indirekten Nutzung von Vorteilen für den Nutzer oder an Dritte. Diese Allgemeinen Bedingungen sowie die Besonderen Bedingungen (darunter die Grundlagen für Sonderaktionen, Grundlagen für Wettbewerbe, 'Clubs', Sonderregeln für einige Dienstleistungen usw.), die in bestimmten Fällen nach vorheriger Ankündigung angewendet werden können, werden ausdrücklich akzeptiert. und ohne Vorbehalt des Benutzers für die bloße Tatsache des Zugriffs auf die Website, der Nutzung der Materialien und Dienste der Website in irgendeiner Weise und/oder des Zugriffs auf oder der Nutzung des Inhalts in irgendeiner Weise und/oder der Teilnahme an Werbeaktionen oder Wettbewerben. Wenn der Zugriff und die Nutzung bestimmter Materialien und/oder Dienste der Website und/oder der Inhalte Sonderbedingungen unterliegen, gelten diese Sonderbedingungen, Vorschriften und Anweisungen, die gegebenenfalls diese Allgemeinen Geschäftsbedingungen (im Folgenden „Besondere Bedingungen“) ersetzen, ergänzen und/oder ändern und die vom Benutzer akzeptiert werden müssen, bevor die entsprechende Dienstleistung erbracht wird. Die Bereitstellung des Dienstes auf Wunsch des Benutzers setzt die ausdrückliche Annahme der gegebenenfalls geltenden Besonderen Bedingungen voraus. Der Begriff „Website“ umfasst beispielsweise, aber nicht einschränkend, alle Inhalte, Daten, Grafiken, Texte, Logos, Marken, Software, Bilder, Animationen, Musikkreationen, Videos, Töne, Zeichnungen, Fotografien, Ausdrücke und Informationen und andere darin enthalten, und im Allgemeinen alle Schöpfungen, die durch irgendwelche Mittel oder Hilfsmittel ausgedrückt werden, materiell oder immateriell, unabhängig davon, ob sie gemäß dem konsolidierten Text des spanischen Gesetzes über geistiges Eigentum für geistiges Eigentum anfällig sind oder nicht. Der Nutzer wird die auf der Website verfügbaren Dienste und Materialien sowie die Inhalte ausschließlich für private Zwecke nutzen, unter Ausschluss jeglicher anderen als dieser Nutzung und insbesondere unter Ausschluss jeglicher Nutzung zu Gewinn oder Vorteil, direkt oder indirekt, indirekt für den Nutzer oder an Dritte. Diese Allgemeinen Bedingungen sowie die Besonderen Bedingungen (darunter die Grundlagen für Sonderaktionen, Grundlagen für Wettbewerbe, 'Clubs', Sonderregeln für einige Dienstleistungen usw.), die in bestimmten Fällen nach vorheriger Ankündigung angewendet werden können, werden ausdrücklich akzeptiert. und ohne Vorbehalt des Benutzers für die bloße Tatsache des Zugriffs auf die Website, der Nutzung der Materialien und Dienste der Website in irgendeiner Weise und/oder des Zugriffs auf oder der Nutzung des Inhalts in irgendeiner Weise und/oder der Teilnahme an Werbeaktionen oder Wettbewerben. Beim Zugriff und der Nutzung bestimmter Materialien und/oder Dienste der Website und/oder der Inhalte Besonderen Bedingungen unterliegen, werden diese Besonderen Bedingungen dem Benutzer vorher bekannt gegeben und ersetzen, ergänzen und/oder ändern je nach Fall die hier gesammelten Allgemeinen Bedingungen. Der Zugriff und die Nutzung dieser Materialien oder Dienste, die den Besonderen Bedingungen unterliegen, impliziert daher die vollständige Einhaltung der Besonderen Bedingungen, die sie in der zum Zeitpunkt des Zugriffs des Benutzers veröffentlichten Version regeln, wobei die Besonderen Bedingungen automatisch in diese Allgemeinen Bedingungen aufgenommen werden . Im Falle eines Widerspruchs zwischen den in diesen Allgemeinen Bedingungen und den Besonderen Bedingungen genannten Bedingungen haben die in den Besonderen Bedingungen vereinbarten Bedingungen immer und in jedem Fall Vorrang, jedoch nur in Bezug auf die unvereinbaren Bestimmungen und nur in Bezug auf diese wesentlichen oder Dienste der Website und/oder die Inhalte, die dieser spezifischen Regelung unterliegen. Das UNTERNEHMEN kann einseitig und ohne vorherige Ankündigung die Bereitstellung, Konfiguration, den Inhalt und die Dienste der Website und die Inhalte sowie ihre Allgemeinen Geschäftsbedingungen ändern. Wenn diese Allgemeinen Geschäftsbedingungen ganz oder teilweise durch andere ersetzt werden, gelten diese neuen Allgemeinen Geschäftsbedingungen oder gegebenenfalls die Besonderen als in gleicher Weise wie die angegebenen akzeptiert. Der Benutzer der Website und/oder der Inhalte muss jedoch regelmäßig auf diese Allgemeinen Bedingungen und die Besonderen Bedingungen der Dienste der Website und/oder der von ihnen genutzten Inhalte zugreifen, um sich über deren Aktualisierungen zu informieren, falls vorhanden. Für den Fall, dass der Benutzer diese Allgemeinen Bedingungen oder die Besonderen Bedingungen nicht akzeptiert, muss der Benutzer den Zugriff auf die Website und/oder die Inhalte unterlassen oder, falls er darauf zugegriffen hat, diese verlassen. Der Benutzer muss die geeigneten technischen Sicherheitsmaßnahmen ergreifen, um unerwünschte Aktionen in seinem Informationssystem, seinen Dateien und seiner Computerausrüstung, die für den Zugriff auf das Internet und insbesondere die Website und/oder die Inhalte verwendet werden, zu vermeiden, da er sich bewusst ist, dass das Internet nicht vollständig sicher ist Mittel. Die Kosten für den telefonischen Zugang oder jede andere Art von Ausgaben, die für den Zugriff auf die Website und/oder die Inhalte erforderlich sind, gehen ausschließlich zu Lasten des Benutzers. Im Allgemeinen sind die über die Website angebotenen Dienstleistungen und Materialien und/oder die Inhalte auf Spanisch verfügbar, und das UNTERNEHMEN kann diese Dienstleistungen und Materialien nach eigenem Ermessen auch in anderen Sprachen präsentieren."
+}

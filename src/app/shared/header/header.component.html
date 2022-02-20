@@ -1,13 +1,25 @@
 <header>
     <div>
-        <a id="icon-go-back" href="javascript:history.back()">
+        <a id="icon-go-back" href="javascript:history.back()" title="{{'back' | translate}}">
             <i class="pi pi-caret-left"></i>
         </a>
 
-        <a id="icon-user" href="#">
+        <a id="icon-user" href="#" title="{{'login/logout' | translate}}">
             <i class="pi pi-user"></i>
         </a>
     </div>
 
     <h1>Marala Hostelería</h1>
+
+    <span><img src="assets/images/flags/{{language_selected}}.svg" alt=""></span>
+    <br>
+    <p-cascadeSelect [options]="languages" optionLabel="name" optionGroupLabel="name" [optionGroupChildren]="['cities']"
+        [style]="{'minWidth': '14rem'}" placeholder="{{'select a language' | translate}}">
+        <ng-template pTemplate="option" let-option>
+            <div class="language-item" (click)="changeLanguage(option.code)">
+                <img src="{{option.image}}" [class]="'flag flag-' + option.code.toLowerCase()" />
+                <span>{{option.name | translate}}</span>
+            </div>
+        </ng-template>
+    </p-cascadeSelect>
 </header>

@@ -14,6 +14,7 @@ import { ScrollTopModule } from 'primeng/scrolltop';
 import { ScrollPanelModule } from 'primeng/scrollpanel';
 import { SlideMenuModule } from 'primeng/slidemenu';
 import { PanelMenuModule } from 'primeng/panelmenu';
+import { CascadeSelectModule } from 'primeng/cascadeselect';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { PanelMenuModule } from 'primeng/panelmenu';
     ScrollTopModule,
     ScrollPanelModule,
     SlideMenuModule,
-    PanelMenuModule
+    PanelMenuModule,
+    CascadeSelectModule
   ],
   exports: [
     ButtonModule,
@@ -47,7 +49,8 @@ import { PanelMenuModule } from 'primeng/panelmenu';
     ScrollTopModule,
     ScrollPanelModule,
     SlideMenuModule,
-    PanelMenuModule
+    PanelMenuModule,
+    CascadeSelectModule
   ]
 })
 export class PrimengModule { }

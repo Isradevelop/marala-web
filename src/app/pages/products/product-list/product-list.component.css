@@ -57,10 +57,20 @@ p-card {
   margin: 10px;
 }
 
+
 img {
   width: 200px;
   height: 200px;
 }
+
+
+/*///////////     EFFECTS   //////////////*/
+
+p-card :hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
 
 
 /*//////////////    RESPONSIVE     //////////*/
@@ -124,7 +134,7 @@ img {
 
 @media(max-width:579px) {
   #product-list-container {
-    display: unset
+    display: unset;
   }
 
   #slideMenu-container {
@@ -141,6 +151,7 @@ img {
   #panelMenu-container {
     margin-bottom: 50px;
     margin: 0 auto;
+    visibility: initial;
   }
 
   aside {

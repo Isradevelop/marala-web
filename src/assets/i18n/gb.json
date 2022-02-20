@@ -1,0 +1,83 @@
+{
+    "back":"Back",
+    "login/logout":"Login / Logout",
+    "select a language": "Select a language",
+    "spanish":"Spanish",
+    "english":"English",
+    "french": "French",
+    "german":"German",
+    "russian":"Russian",
+    "chinese":"Chinese",
+    
+    
+    "home":"Home",
+    "products":"Products",
+    "about_us":"About us",
+    "our_brands":"Our brands",
+    "search": "Search",
+    
+    "our associated brands":"Our associated brands",
+    
+    "categories":"Categories",
+    "alcoholic drinks":"Alcoholic drinks",
+    "drinks without alcohol":"Drinks without alcohol",
+    "household":"Household",
+    "cleaning":"Cleaning",
+    "feeding":"Feeding",
+    "others":"Others",
+    "go to category":"Go to category",
+    
+    
+    "contact us":"Contact us",
+    "direction":"Direction",
+    "schedule":"Schedule",
+    "general conditions":"General conditions",
+    "legal warning":"Legal warning",
+    "privacy policy":"Privacy Policy",
+    "general conditions of use":"General conditions of use",
+    "cookies policy":"Cookies policy",
+    "day":"Day",
+    "monday":"Monday",
+    "tuesday":"Tuesday",
+    "wednesday":"Wednesday",
+    "thursday":"Thursday",
+    "friday":"Friday",
+    "saturday":"Saturday",
+    "sunday":"Sunday",
+    "closed":"Closed",
+    "page created by":"Page created by",
+    "all rights reserved":"All rights reserved",
+
+
+    "enter item to search":"Enter item to search",
+    "products found":"Products found",
+    "go to product":"Go to product",
+
+
+    "ul1_li1":"WHAT ARE COOKIES?",
+    "p1_cookies.component.html":" is responsible for the website http://www.maralahosteleria.com, and uses cookies and/or other files with similar functionality (hereinafter 'Cookies'). Cookies are small data files that are sent to the user's computer, mobile phone or other access device when they visit a web page and that allow information related to browsing or a code that allows the user to be unequivocally identified.",
+    "ul1_li2":"TYPE OF COOKIES AND PURPOSES OF USE",
+    "p2_cookies.component.html":"The website http://www.maralahosteleria.com uses session Cookies and/or persistent Cookies which, in turn, may be its own and/or third-party Cookies. Session Cookies are cookies designed to collect and store data while the user accesses a web page. They are usually used to store information that is only of interest to keep for the provision of the service requested by the user on a single occasion. Persistent Cookies are a type of cookie in which the data remains stored in the terminal and can be accessed and processed for a period defined by the person responsible for the cookie, which can range from a few minutes to several years. Own Cookies: Those created or managed by the person in charge of the website Marala Hostelería, S.L The website http://www.maralahosteleria.com uses its own Cookies for the following purposes:",
+    "ul2_li1_title":"Techniques:",
+    "ul2_li1_body":"They allow the user to browse the use of the different options or services that exist in it, such as, for example, controlling traffic and data communication, identifying the session, accessing restricted access parts, using security elements during browsing, store content.",
+    "ul2_li2_title":"Personalization:",
+    "ul2_li2_body":"allow the user to access the service with some predefined general characteristics based on a series of criteria in the user's terminal, such as, for example, remembering video playback preferences",
+    "p3_cookies.component.html":"Third-party cookies: Those managed by service providers outside Marala Hostelería, S.L.",
+    "ul1_li3":"DEACTIVATION OR DELETION OF COOKIES",
+    "p4":"Most web browsers allow you to manage, at any time, the user's preferences regarding the use of Cookies. The user can adjust his browser to reject Cookies or delete certain Cookies at his discretion. For the configuration of Cookies, the user can access:",
+    "p5":"The user can revoke their consent to the use of Cookies in their browser through the above indications or through the installation of a rejection system ('optout') in their web browser. In the case of Google Analytics Cookies, the opt-out can be done through the following link. The user must take into account that some features of the contents of the Website http://www.maralahosteleria.com are only available if the installation of Cookies is allowed in your browser. If you decide not to accept or block certain Cookies (depending on their purpose), this may totally or partially affect the normal functioning of the Website or prevent access to some of its services.",
+    "ul1_li4":"UPDATES AND CHANGES IN THE COOKIES POLICY",
+    "p6":"Marala Hostelería, S.L can modify this Cookies Policy based on new legislative or regulatory requirements, or in order to adapt said policy to the instructions issued by the Spanish Data Protection Agency. If you want more information about how we use Cookies, you can send us an e-mail to: marala@maralahosteleria.com",
+
+
+    "header_use-conditions.component":"Conditions of use of websites and content",
+    "p1_use-conditions.component":"GENERAL INFORMATION The terms and conditions indicated below (hereinafter, “General Conditions”), regulate the access, registration, browsing, downloading and use of/to each and every one of the web pages that can be located under the http domain: //www.marala.com/es and its respective subdomains and subdirectories (hereinafter, “Website” or “Websites”), these domains being the property of Marala, SA These General Conditions also regulate the access, download and use of any other information, text, graphics, photos, images, music, sounds, computer applications or accounts on any social platforms that are created, designed, promoted or disseminated by Marala, S.A. and which can be accessed from the Website or from any other web page or computer application (hereinafter, 'Content'). In compliance with the provisions of article 10 of Law 34/2002, of July 11, on services of the information society and electronic commerce, Marala, S.A. (hereinafter, the 'COMPANY') makes available to its users the following registration information of the owner of the Website and/or Content:",
+    "p2_use-conditions.component":"Company name: Marala Hostelería, S.L.",
+    "p3_use-conditions.component":"Tax identification number: B02770667",
+    "p4_use-conditions.component":"Mercantile Data: Registered in the Mercantile Registry of Malaga, Volume 5982, Book 4889, Folio 173, Section 8, Page MA-157919, I/A 1",
+    "p5_use-conditions.component":"Registered office: Polígono Industrial La Rosa Calle Río Tinto nº 6 29120 Alhaurin El Grande Málaga",
+    "p6_use-conditions.component":"Contact: You can contact the COMPANY by ordinary mail at the address of the registered office or at the legal department of the COMPANY or through the following email address: marala@marala.es.",
+    "p7_use-conditions.component":"BY ACCESSING, VIEWING OR USING THE MATERIALS OR SERVICES ACCESSIBLE ON OR THROUGH THE 'WEBSITE' OR THE 'CONTENT' ACCESSIBLE ON OR THROUGH THE 'WEBSITE' OR OTHER WEB PAGES OR COMPUTER APPLICATIONS, THE USER STATES THAT YOU UNDERSTAND AND ACCEPT THESE “GENERAL CONDITIONS” AS THE LEGAL EQUIVALENT OF A BINDING, WRITTEN SIGNED DOCUMENT. GENERAL CONDITIONS OF USE OF THE 'WEBSITE' AND THE 'CONTENT' Access to and use of the COMPANY's Website, as well as access to and use of the Contents, shall be subject to these General Conditions. The use of any web page owned by the COMPANY or of the Contents attributes the condition of user and implies the full and unreserved acceptance by the user of all the General Conditions in force at each moment in which the user accesses it. The COMPANY reserves the right to modify these General Conditions at any time. We suggest that you review these General Conditions frequently to be aware of their scope and any changes that have been made. By accessing the Websites and/or the Content owned by the COMPANY after the publication of the notice of said modifications, alterations or updates, you will be agreeing to comply with the new terms. The user is aware that the access and use of the Website and/or the Contents is carried out under their sole and exclusive responsibility. Some services of the COMPANY Websites and/or some Contents may be subject to particular conditions, regulations and instructions that, where appropriate, replace, complete and/or modify these terms and conditions (hereinafter, 'Special Conditions' ), and which must be accepted by the user before the corresponding service is provided. The provision of the service at the request of the user implies the express acceptance of the Particular Conditions that may apply. The term 'Website' includes, by way of example but not limitation, all content, data, graphics, texts, logos, trademarks, software, images, animations, musical creations, videos, sounds, drawings, photographs, expressions and information and others included therein, and, in general, all creations expressed by any means or support, tangible or intangible, regardless of whether or not they are susceptible to intellectual property according to the Consolidated Text of the Spanish Intellectual Property Law. The user will use the services and materials available on the Website as well as the Contents exclusively for private purposes, excluding any form of use other than this, and specifically excluding any use for profit or benefit, direct or indirect. indirect to the user or to third parties. These General Conditions as well as the Particular Conditions (among which are the Bases of Special Promotions, Bases of Contests, 'Clubs', Particular Rules for some services, etc.) that may be applied prior notice in specific cases, are expressly accepted. and without reservation by the user for the mere fact of accessing the Website, using the materials and services of the Website in any way and/or accessing or using the Content in any way and/or participating in promotions or contests. When the access and use of certain materials and/or services of the Website and/or the Contents is subject to Particular Conditions, these Particular Conditions will be previously made known to the user, and depending on the case, they will replace, complete and/or or modify the General Conditions contained herein. The access and use of said materials or services subject to Particular Conditions will imply, therefore, full adherence to the Particular Conditions that regulate them in the version published at the time the user accesses them, said Particular Conditions being automatically incorporated. to these General Conditions. In case of contradiction between the terms and conditions stated in these General Conditions and the Particular Conditions, the terms agreed in the Particular Conditions will prevail always and in any case, although only with regard to the incompatible provisions and only with respect to those material or services of the Website and/or the Contents subject to said specific regulation. The COMPANY may unilaterally and without prior notice modify the provision, configuration, content and services of the Website and the Contents, as well as its General Conditions. If these General Conditions are replaced by others in whole or in part, said new general conditions or, as the case may be, the particular ones, will be understood to be accepted in the same way as the one stated. However, the user of the Website and/or the Contents must access these General Conditions and the Particular Conditions of the services of the Website and/or the Contents that they use, periodically to be aware of the updating of the same, if any. In the event that the user does not accept these General Conditions or the Particular Conditions, the user must refrain from accessing the Website and/or the Contents or, if they have accessed, abandon them. The user must establish the appropriate technical security measures to avoid unwanted actions in their information system, files and computer equipment used to access the Internet and, in particular, the Website and/or the Contents, being aware that The Internet is not a completely secure medium. The cost of telephone access or any other type of expense necessary to access the Website and/or the Contents will be borne exclusively by the user. In general, the services and materials offered through the Website and/or the Contents will be available in Spanish, and the COMPANY may discretionally present said services and materials in other languages ​​as well."
+
+
+}

@@ -1,0 +1,82 @@
+{
+    "hello":"Bonjour",
+    "back":"Derrière",
+    "login/logout":"Login / Logout",
+    "select a language": "Choisir une langue",
+    "spanish":"Espagnol",
+    "english":"Anglais",
+    "french": "Francais",
+    "german":"Allemand",
+    "russian":"Russe",
+    "chinese":"Chinois",
+    
+    
+    "home":"Home",
+    "about_us":"À propos de nous",
+    "our_brands":"Nos marques",
+    "search": "Chercher",
+
+
+    "our associated brands": "Nos marques associées",
+
+    "categories":"Catégories",
+    "alcoholic drinks":"Boissons alcoolisées",
+    "drinks without alcohol":"Boissons non alcoolisées",
+    "household":"Ménage",
+    "cleaning":"Nettoyage",
+    "feeding":"Alimentation",
+    "others":"Autres",
+    "go to category":"Aller à la catégorie",
+
+    
+    "contact us":"Contactez-nous",
+    "direction":"Adresse",
+    "schedule":"Programme",
+    "general conditions":"Conditions générales",
+    "legal warning":"Mention légale",
+    "privacy policy":"Politique de confidentialité",
+    "general conditions of use":"Conditions générales d'utilisation",
+    "cookies policy":"Politique de cookies",
+    "day":"Journée",
+    "monday":"Lundi",
+    "tuesday":"Mardi",
+    "wednesday":"Mercredi",
+    "thursday":"Jeudi",
+    "friday":"Vendredi",
+    "saturday":"Samedi",
+    "sunday":"Dimanche",
+    "closed":"Fermé",
+    "page created by":"Page créée par",
+    "all rights reserved":"Tous droits réservés",
+
+
+    "enter item to search":"Entrez l'élément à rechercher",
+    "products found":"Produits trouvés",
+    "go to product":"Aller au produit",
+
+
+    "ul1_li1":"QU'EST-CE QUE LES COOKIES?",
+    "p1_cookies.component.html":"est responsable du site http://www.maralahosteleria.com, et utilise des cookies et/ou d'autres fichiers avec des fonctionnalités similaires (ci-après 'Cookies'). Les cookies sont de petits fichiers de données qui sont envoyés à l'ordinateur, au téléphone mobile ou autre dispositif d'accès lorsque vous visitez une page Web et qui vous permettent d'obtenir des informations liées à votre navigation ou un code permettant d'identifier sans équivoque le Nom d'utilisateur.",
+    "ul1_li2":"TYPE DE COOKIES ET FINALITÉS D'UTILISATION",
+    "p2_cookies.component.html":"Le site Web http://www.maralahosteleria.com utilise des cookies de session et/ou des cookies persistants qui, à leur tour, peuvent être les siens et/ou des cookies tiers. Les cookies de session sont des cookies conçus pour collecter et stocker des données lorsque l'utilisateur accède à une page Web. Ils sont généralement utilisés pour stocker des informations qui n'ont d'intérêt qu'à conserver pour la fourniture du service demandé par l'utilisateur en une seule fois. Les cookies persistants sont un type de cookie dans lequel les données sont toujours stockées dans le terminal et peuvent être consultées et traitées pendant une période définie par la personne responsable du cookie, qui peut aller de quelques minutes à plusieurs années. Cookies propres : ceux créés ou gérés par le responsable du site Web Marala Hostelería, S.L. Le site Web http://www.maralahosteleria.com utilise ses propres cookies aux fins suivantes :",
+    "ul2_li1_title":"Technique :",
+    "ul2_li1_body":"Ils permettent à l'utilisateur de parcourir l'utilisation des différentes options ou services qui y existent, tels que, par exemple, contrôler le trafic et la communication de données, identifier la session, accéder à des parties à accès restreint, utiliser des éléments de sécurité lors de la navigation, stocker du contenu.",
+    "ul2_li2_title":"Personnalisation:",
+    "ul2_li2_body":"permettre à l'utilisateur d'accéder au service avec certaines caractéristiques générales prédéfinies sur la base d'une série de critères dans le terminal de l'utilisateur, comme, par exemple, la mémorisation des préférences de lecture vidéo",
+    "p3_cookies.component.html":"Cookies tiers : Ceux gérés par des prestataires de services extérieurs à Marala Hostelería, S.L.",
+    "ul1_li3":"DÉSACTIVATION OU SUPPRESSION DES COOKIES",
+    "p4":"La plupart des navigateurs Web vous permettent de gérer, à tout moment, les préférences de l'utilisateur concernant l'utilisation des cookies. L'utilisateur peut régler son navigateur pour refuser les Cookies ou supprimer certains Cookies à sa discrétion. Pour le paramétrage des Cookies, l'utilisateur peut accéder :",
+    "p5":"L'utilisateur peut révoquer son consentement à l'utilisation de Cookies dans son navigateur via les indications ci-dessus ou via l'installation d'un système de rejet (« optout ») dans son navigateur web. Dans le cas des cookies de Google Analytics, la désactivation peut être effectuée via le lien suivant. L'utilisateur doit tenir compte du fait que certaines fonctionnalités du contenu du site Web http://www.maralahosteleria.com ne sont disponibles que si l'installation de cookies est autorisée dans votre navigateur. Si vous décidez de ne pas accepter ou de bloquer certains Cookies (selon leur finalité), cela peut affecter totalement ou partiellement le fonctionnement normal du Site ou empêcher l'accès à certains de ses services.",
+    "ul1_li4":"MISES À JOUR ET MODIFICATIONS DE LA POLITIQUE EN MATIÈRE DE COOKIES",
+    "p6":"Marala Hostelería, S.L peut modifier cette politique de cookies en fonction de nouvelles exigences législatives ou réglementaires, ou afin d'adapter ladite politique aux instructions émises par l'Agence espagnole de protection des données. Si vous souhaitez plus d'informations sur la façon dont nous utilisons les cookies, vous pouvez nous envoyer un e-mail à : marala@maralahosteleria.com",
+
+
+    "header_use-conditions.component":"Conditions d'utilisation des sites et contenus",
+    "p1_use-conditions.component":"INFORMATIONS GÉNÉRALES Les termes et conditions indiqués ci-dessous (ci-après, 'Conditions Générales'), régissent l'accès, l'enregistrement, la navigation, le téléchargement et l'utilisation de/à chacune des pages Web pouvant être situées sous le domaine http : // www.marala.com/es et ses sous-domaines et sous-répertoires respectifs (ci-après, 'Site Web' ou 'Sites Web'), ces domaines étant la propriété de Marala, SA Les présentes conditions générales régissent également l'accès, le téléchargement et l'utilisation de toute autre information, texte, graphique, photo, image, musique, son, application informatique ou compte sur toute plate-forme sociale créée, conçue, promue ou diffusée par Marala, S.A. et accessible depuis le Site Internet ou depuis toute autre page Internet ou application informatique (ci-après, le « Contenu »). Conformément aux dispositions de l'article 10 de la loi 34/2002 du 11 juillet sur les services de la société de l'information et le commerce électronique, Marala, S.A. (ci-après, la 'SOCIETE') met à la disposition de ses utilisateurs les informations d'enregistrement suivantes du propriétaire du Site et/ou du Contenu :",
+    "p2_use-conditions.component":"Raison sociale : Marala Hostelería, S.L.",
+    "p3_use-conditions.component":"Numéro d'identification fiscale : B02770667",
+    "p4_use-conditions.component":"Données commerciales : inscrites au registre du commerce de Malaga, volume 5982, livre 4889, feuillet 173, section 8, page MA-157919, I/A 1",
+    "p5_use-conditions.component":"Siège social : Polígono Industrial La Rosa Calle Río Tinto nº 6 29120 Alhaurin El Grande Málaga",
+    "p6_use-conditions.component":"Contact : Vous pouvez contacter la SOCIETE par courrier ordinaire à l'adresse du siège social ou au service juridique de la SOCIETE ou via l'adresse e-mail suivante : marala@marala.es.",
+    "p7_use-conditions.component":"EN ACCÉDANT, VISUALISANT OU UTILISANT LE MATÉRIEL OU LES SERVICES ACCESSIBLES SUR OU VIA LE 'SITE WEB' OU LE 'CONTENU' ACCESSIBLE SUR OU VIA LE 'SITE WEB' OU D'AUTRES PAGES WEB OU APPLICATIONS INFORMATIQUES, L'UTILISATEUR DÉCLARE QUE VOUS COMPRENEZ ET ACCEPTEZ CES GÉNÉRALES CONDITIONS » COMME L'ÉQUIVALENT JURIDIQUE D'UN DOCUMENT CONTRAIGNANT, SIGNÉ ET ÉCRIT. CONDITIONS GÉNÉRALES D'UTILISATION DU 'SITE INTERNET' ET DU 'CONTENU' L'accès et l'utilisation du Site Web de la SOCIETE, ainsi que l'accès et l'utilisation des Contenus, sont soumis aux présentes Conditions Générales. L'utilisation de toute page Web appartenant à la SOCIÉTÉ ou des Contenus attribue la condition d'utilisateur et implique l'acceptation pleine et sans réserve par l'utilisateur de toutes les Conditions Générales en vigueur à chaque instant où l'utilisateur y accède. La SOCIETE se réserve le droit de modifier à tout moment les présentes Conditions Générales. Nous vous suggérons de consulter fréquemment ces Conditions Générales pour prendre connaissance de leur portée et des éventuelles modifications qui y ont été apportées. En accédant aux Sites Web et/ou au Contenu appartenant à la SOCIETE après la publication de l'avis desdites modifications, altérations ou mises à jour, vous acceptez de vous conformer aux nouvelles conditions. L'utilisateur est conscient que l'accès et l'utilisation du Site et/ou des Contenus s'effectuent sous sa seule et exclusive responsabilité. Certains services des Sites Internet de la SOCIETE et/ou certains Contenus peuvent être soumis à des conditions, réglementations et instructions particulières qui, le cas échéant, remplacent, complètent et/ou modifient les présentes conditions générales (ci-après, les « Conditions Particulières »), et qui doivent être accepté par l'utilisateur avant que le service correspondant ne soit fourni. La fourniture du service à la demande de l'utilisateur implique l'acceptation expresse des Conditions Particulières éventuellement applicables.Le terme 'Site Web' comprend, à titre d'exemple mais non limitatif, tous les contenus, données, graphiques, textes, logos, marques, logiciels, images, animations, créations musicales, vidéos, sons, dessins, photographies, expressions et informations et autres y compris, et, en général, toutes les créations exprimées par tout moyen ou support, matériel ou immatériel, qu'elles soient ou non susceptibles de propriété intellectuelle conformément au texte consolidé de la loi espagnole sur la propriété intellectuelle .L'utilisateur utilisera les services et matériels disponibles sur le Site ainsi que les Contenus exclusivement à des fins privées, à l'exclusion de toute forme d'utilisation autre que celle-ci, et excluant notamment toute utilisation à des fins lucratives ou rapportant un bénéfice, direct ou indirect, à l'utilisateur ou à des tiers. Les présentes Conditions Générales ainsi que les Conditions Particulières (parmi lesquelles les Bases des Promotions Spéciales, les Bases des Concours, les 'Clubs', les Règles Particulières pour certains services, etc.) qui peuvent être appliquées au préalable dans des cas particuliers, sont expressément acceptées. et sans réserve par l'utilisateur du simple fait d'accéder au Site, d'utiliser les matériels et services du Site de quelque manière que ce soit et/ou d'accéder ou d'utiliser le Contenu de quelque manière que ce soit et/ou de participer à des promotions ou à des concours. Lorsque l'accès et l'utilisation de certains matériels et/ou services du Site et/ou des Contenus sont soumis à des Conditions Particulières, ces Conditions Particulières seront préalablement portées à la connaissance de l'utilisateur, et selon les cas, elles remplaceront, complèteront et /ou ou modifier les Conditions Générales contenues dans les présentes. L'accès et l'utilisation desdits matériels ou services soumis aux Conditions Particulières impliqueront, par conséquent, l'adhésion pleine et entière aux Conditions Particulières qui les régissent dans la version publiée au moment où l'utilisateur y accède, lesdites Conditions Particulières étant automatiquement incorporées aux présentes Conditions Générales. En cas de contradiction entre les termes et conditions énoncés dans les présentes Conditions Générales et les Conditions Particulières, les termes convenus dans les Conditions Particulières prévaudront toujours et dans tous les cas, mais uniquement en ce qui concerne les dispositions incompatibles et uniquement en ce qui concerne les éléments matériels ou services du Site et/ou des Contenus soumis à ladite réglementation spécifique. La SOCIETE peut modifier unilatéralement et sans préavis la mise à disposition, la configuration, le contenu et les services du Site et les Contenus, ainsi que ses Conditions Générales. Si ces Conditions Générales sont remplacées par d'autres en tout ou en partie, lesdites nouvelles conditions générales ou, le cas échéant, les particulières, seront réputées acceptées de la même manière que celle énoncée. Cependant, l'utilisateur du Site Web et/ou des Contenus doit accéder périodiquement aux présentes Conditions Générales et aux Conditions Particulières des services du Site Web et/ou des Contenus qu'il utilise pour être au courant de la mise à jour de ceux-ci, le cas échéant. Dans le cas où l'utilisateur n'accepte pas les présentes Conditions Générales ou les Conditions Particulières, l'utilisateur doit s'abstenir d'accéder au Site et/ou aux Contenus ou, s'il y a accédé, les abandonner. L'utilisateur doit mettre en place les mesures techniques de sécurité appropriées pour éviter des actions indésirables dans son système d'information, ses fichiers et son équipement informatique utilisés pour accéder à Internet et, en particulier, au Site Web et/ou au Contenu, étant conscient qu'Internet n'est pas un moyen. Les frais d'accès téléphonique ou tout autre type de dépense nécessaire pour accéder au Site et/ou aux Contenus seront à la charge exclusive de l'utilisateur. En général, les services et matériels proposés via le Site Web et/ou les Contenus seront disponibles en espagnol, et la SOCIÉTÉ pourra, à sa discrétion, présenter lesdits services et matériels également dans d'autres langues."
+}

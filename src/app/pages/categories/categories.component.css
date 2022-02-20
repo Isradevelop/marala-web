@@ -40,6 +40,16 @@ p-card {
   margin-left: 0px;
 }
 
+
+/*///////////     EFFECTS   //////////////*/
+
+p-card :hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+
+
 /*************   RESPONSIVE   ***********/
 
 @media (max-width: 1635px) {
@@ -47,6 +57,10 @@ p-card {
     flex-basis: 44%;
     margin-bottom: 15px;
     margin-right: 38px;
+  }
+
+  img {
+    width: 80%;
   }
 }
 
@@ -108,6 +122,10 @@ p-card {
     margin-bottom: 15px;
     margin-right: 38px;
   }
+
+  img {
+    width: 70%;
+  }
 }
 
 
@@ -125,5 +143,15 @@ p-card {
 
   #cards-container {
     display: block;
+  }
+}
+
+@media (max-width: 346px) {
+  img {
+    width: 100%;
+  }
+
+  #categories-container {
+    width: 96%;
   }
 }

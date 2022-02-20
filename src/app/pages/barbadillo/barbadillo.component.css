@@ -61,6 +61,14 @@ img {
 }
 
 
+/*///////////     EFFECTS   //////////////*/
+
+p-card :hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+
 /*************   RESPONSIVE   ***********/
 
 @media (max-width: 1620px) {

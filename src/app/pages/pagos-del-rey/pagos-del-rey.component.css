@@ -5,7 +5,7 @@
 
 .background-image-pagos {
   width: 90%;
-  height: 720px;
+  height: 450px;
   background-image: url('../../../assets/images/background-pdr.jpg');
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -14,20 +14,17 @@
   margin-bottom: 50px;
   text-align: center;
   padding: 50px;
+  background-size: 1500px;
+}
+
+#pagos-description {
+  width: 85%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 h2 {
   font-size: 40px;
-}
-
-.background-image-pagos p {
-  background-color: rgb(182, 180, 180);
-  width: 20%;
-  padding: 20px;
-  color: black;
-  border-radius: 5px;
-  box-shadow: 3px 3px 1px black;
-  font-size: 14px;
 }
 
 .products-pagos {
@@ -60,6 +57,17 @@ img {
   height: 250px;
 }
 
+
+/*///////////     EFFECTS   //////////////*/
+
+p-card :hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+
+
+
 /*************   RESPONSIVE   ***********/
 
 @media (max-width: 1620px) {
@@ -77,13 +85,13 @@ img {
 
 @media (max-width: 1474px) {
   .background-image-pagos p {
-    width: 30%;
+    width: 25%;
   }
 }
 
 @media (max-width: 1250px) {
   .background-image-pagos p {
-    width: 35%;
+    width: 30%;
   }
 }
 
@@ -95,98 +103,19 @@ img {
   }
 
   .background-image-pagos {
-    height: 800px;
+    height: 300px;
+    background-size: 1000px;
+    width: 95%;
   }
 }
 
 @media (max-width: 1089px) {
-  .background-image-pagos p {
-    width: 45%;
-  }
-
-  .background-image-pagos {
-    height: 700px;
-  }
-}
-
-@media (max-width: 1037px) {
-  p-card {
-    flex-basis: 40%;
-    margin-right: 35px;
-    margin-left: 25px;
-  }
-
-  .background-image-pagos {
-    height: 650px;
-  }
-}
-
-@media (max-width: 859px) {
-  p-card {
-    flex-basis: 90%;
-  }
-
-  .background-image-pagos p {
-    font-size: 12px;
-    width: 37%;
-  }
-
-  .background-image-pagos {
-    height: 570px;
-  }
-
-}
-
-@media (max-width: 782px) {
-  .background-image-pagos p {
-    width: 40%;
-  }
-
-  .background-image-pagos {
-    height: 540px;
-  }
-}
-
-@media (max-width: 734px) {
-  #second-p {
-    visibility: hidden;
-  }
-
-  .background-image-pagos p {
-    width: 35%;
-    margin-left: 0px;
-  }
-
-  .background-image-pagos {
-    height: 450px;
-  }
-}
-
-@media (max-width: 664px) {
-  .background-image-pagos p {
-    width: 37%;
-  }
-
-  .background-image-pagos {
-    height: 400px;
-    padding: 15px;
-  }
-}
-
-
-@media (max-width: 635px) {
   #first-p {
     visibility: hidden;
   }
 
-  .background-image-pagos {
-    height: 370px;
-    padding: 15px;
-
-  }
-
-  h2 {
-    font-size: 25px;
+  #second-p {
+    visibility: hidden;
   }
 
   .hidden {
@@ -197,11 +126,103 @@ img {
     margin-left: 20px;
     margin-bottom: 40px;
   }
+
+  .background-image-pagos p {
+    width: 35%;
+  }
+
+  .background-image-pagos {
+    height: 300px;
+    background-size: 1000px;
+    width: 95%;
+  }
+}
+
+@media (max-width: 1037px) {
+  p-card {
+    flex-basis: 40%;
+    margin-right: 35px;
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 859px) {
+  p-card {
+    flex-basis: 100%;
+  }
+
+  .background-image-pagos p {
+    font-size: 12px;
+    width: 37%;
+  }
+
+  .background-image-pagos {
+    height: 250px;
+    width: 100%;
+    background-size: 800px;
+  }
+
+
+}
+
+@media (max-width: 782px) {
+
+  .background-image-pagos p {
+    width: 40%;
+  }
+
+  .background-image-pagos {
+    height: 200px;
+    background-size: 700px;
+  }
+}
+
+@media (max-width: 734px) {
+
+  .background-image-pagos p {
+    width: 30%;
+    margin-left: 0px;
+  }
+
+  .background-image-pagos {
+    height: 250px;
+    background-size: 900px;
+  }
+}
+
+@media (max-width: 664px) {
+
+
+  .background-image-pagos p {
+    width: 33%;
+  }
+
+  .background-image-pagos {
+    height: 150px;
+    padding: 15px;
+    background-size: 600px;
+  }
+}
+
+
+@media (max-width: 635px) {
+
+  .background-image-pagos {
+    height: 200px;
+    padding: 15px;
+    background-size: 700px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
 }
 
 
 @media (max-width: 550px) {
   .background-image-pagos {
-    height: 250px;
+    height: 130px;
+    background-size: 400px;
   }
 }

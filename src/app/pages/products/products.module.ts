@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core'
 
 import { PrimengModule } from 'src/app/primeng.module';
 
@@ -16,7 +17,8 @@ import { ProductListComponent } from './product-list/product-list.component';
   imports: [
     CommonModule,
     ProductsRoutingModule,
-    PrimengModule
+    PrimengModule,
+    TranslateModule
   ]
 })
 export class ProductsModule { }

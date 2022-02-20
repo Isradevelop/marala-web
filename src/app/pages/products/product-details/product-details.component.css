@@ -18,6 +18,7 @@ img {
   width: 70%;
 }
 
+
 #info-container {
   color: black;
   flex-basis: 60%;
@@ -27,6 +28,15 @@ a {
   color: rgb(53, 149, 212);
   text-decoration: underline;
   margin-left: 35px;
+}
+
+
+/*///////////     EFFECTS   //////////////*/
+
+
+#image-container :hover {
+  transform: scale(1.1);
+  transition: 1s;
 }
 
 
