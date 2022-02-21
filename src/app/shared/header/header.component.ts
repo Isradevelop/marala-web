@@ -56,7 +56,8 @@ export class HeaderComponent implements OnInit {
   }
 
 
-  changeLanguage(code: string) {
+  changeLanguage(evt: any) {
+    const code = evt.value.code;
     this.translate.setDefaultLang(code);
     this.translate.use(code);
 

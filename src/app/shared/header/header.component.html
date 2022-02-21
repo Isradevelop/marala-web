@@ -13,10 +13,11 @@
 
     <span><img src="assets/images/flags/{{language_selected}}.svg" alt=""></span>
     <br>
-    <p-cascadeSelect [options]="languages" optionLabel="name" optionGroupLabel="name" [optionGroupChildren]="['cities']"
-        [style]="{'minWidth': '14rem'}" placeholder="{{'select a language' | translate}}">
+    <p-cascadeSelect [options]="languages" optionLabel="name" (onChange)="changeLanguage($event)"
+        optionGroupLabel="name" [optionGroupChildren]="['cities']" [style]="{'minWidth': '14rem'}"
+        placeholder="{{'select a language' | translate}}">
         <ng-template pTemplate="option" let-option>
-            <div class="language-item" (click)="changeLanguage(option.code)">
+            <div class="language-item">
                 <img src="{{option.image}}" [class]="'flag flag-' + option.code.toLowerCase()" />
                 <span>{{option.name | translate}}</span>
             </div>
