@@ -1,23 +1,25 @@
 <div class="animate__animated animate__fadeInLeft">
     <div id="contact-form-container">
 
-        <h2>¿Aún no tienes cuenta con Marala Hostelería?</h2>
+        <h2>{{'still dont have an account with Marala Hostelería?' | translate}}</h2>
         <p>
-            Si creas cuenta con nosotros podrás ver los precios de los productos, acceder a ofertas especiales y mucho
-            más!!!
+            {{'if you create an account with us you will be able to see the prices of the products, access special
+            offers and much more!!!' | translate}}
             <br>
             <br>
-            Introduce tu número de teléfono y un comercial se pondrá en contecto contigo lo antes posible.
+            {{'enter your phone number and a salesperson will contact you as soon as possible.' | translate}}
         </p>
         <br>
         <div class="grid p-fluid">
 
-            <input type="text" pInputText placeholder="Pon aquí el número de teléfono al que quieres que te llamemos" />
+            <input type="text" pInputText
+                placeholder="{{'put here the phone number you want us to call you at' | translate}}" />
 
-            <textarea pInputTextarea rows="15" placeholder="Escribe aquí..." [autoResize]="autoResize"></textarea>
+            <textarea pInputTextarea rows="15" placeholder="{{'write here...' | translate}}"
+                [autoResize]="autoResize"></textarea>
 
             <div class="p-inputgroup">
-                <p-button label="Llámame!!">
+                <p-button label="{{'call me!!' | translate}}">
                     <i class="pi pi-phone animate__animated animate__tada animate__infinite"
                         style="font-size: 2rem"></i>
                 </p-button>
@@ -27,11 +29,11 @@
 
     </div>
 
-    <h2>Ven a conocernos!!</h2>
+    <h2>{{'come meet us!!' | translate}}</h2>
     <div id="map-container">
         <div id="divMap"></div>
         <div id="direction-content">
-            <h3>Contacto</h3>
+            <h3>{{'contact' | translate}}</h3>
             <hr>
             <p class="p-contact">
                 Polígono Industrial La Rosa<br>

@@ -36,10 +36,7 @@ export class ContactComponent implements OnInit {
       .addTo(map)
 
 
-    const tokenApi = this.apiService.getToken()
-      .subscribe(token => {
 
-      })
 
   }
 

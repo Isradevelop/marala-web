@@ -1,33 +1,11 @@
 <div class="alhambra-container">
     <div class="background-image-alhambra">
-        <p class="animate__animated animate__fadeInLeft" id="first-p">En 1925, dos maestros cerveceros españoles hacen
-            realidad un
-            sueño: crear una cerveza inspirada en la ciudad
-            nazarí, con el gusto y el carácter granadinos.
-
-            Cautivados por el halo misterioso de La Alhambra, toman su nombre y crean <b>Cervezas Alhambra</b>, cervezas
-            elaboradas
-            con calma y pensadas para ser degustadas con los cinco sentidos.
-        </p>
-        <p class="animate__animated animate__fadeInLeft" id="second-p">
-            En Cervezas Alhambra creemos que la vida se disfruta plenamente cuando le dedicamos el tiempo necesario a lo
-            que
-            nos rodea, convirtiendo cada momento en una experiencia singular para los sentidos. Solo así podremos
-            descubrir
-            los detalles que se esconden detrás de lo evidente.
-        </p>
+        <p class="animate__animated animate__fadeInLeft" id="first-p">{{'alhambra_p1' | translate}}</p>
+        <p class="animate__animated animate__fadeInLeft" id="second-p">{{'alhambra_p2' | translate}}</p>
     </div>
 
     <div id="hidden">
-        <p class="animate__animated animate__fadeInLeft">En 1925, dos maestros cerveceros españoles hacen
-            realidad un
-            sueño: crear una cerveza inspirada en la ciudad
-            nazarí, con el gusto y el carácter granadinos.
-
-            Cautivados por el halo misterioso de La Alhambra, toman su nombre y crean <b>Cervezas Alhambra</b>, cervezas
-            elaboradas
-            con calma y pensadas para ser degustadas con los cinco sentidos.
-        </p>
+        <p class="animate__animated animate__fadeInLeft">{{'alhambra_p1' | translate}}</p>
     </div>
 
     <div class="products-alhambra">
@@ -40,7 +18,8 @@
                 <p>Cuidada e intensa, Alhambra Lager Singular sigue un proceso de fermentación lenta gracias al cual se
                     consiguen sus matices únicos, ligeros y afrutados logrando un sabor tan singular como su nombre.</p>
                 <ng-template pTemplate="footer">
-                    <p-button label="Ir al producto" icon="pi pi-check" routerLink="../../pages/products/1">
+                    <p-button label="{{'go to product' | translate}}" icon="pi pi-check"
+                        routerLink="../../pages/products/1">
                     </p-button>
                 </ng-template>
             </p-card>
@@ -53,7 +32,7 @@
                     <a routerLink="../../pages/products/1">leer mas...</a>
                 </p>
                 <ng-template pTemplate="footer">
-                    <p-button label="Ir al producto" icon="pi pi-check"></p-button>
+                    <p-button label="{{'go to product' | translate}}" icon="pi pi-check"></p-button>
                 </ng-template>
             </p-card>
             <p-card header="Alhambra Reserva Roja" [style]="{background:'white', color:'black', height:'600px'}"
@@ -63,7 +42,7 @@
                     delicadeza extraordinarias. Una cerveza de ‘trago lento’, que requiere de tiempo para poder saborear
                     en su totalidad.</p>
                 <ng-template pTemplate="footer">
-                    <p-button label="Ir al producto" icon="pi pi-check"></p-button>
+                    <p-button label="{{'go to product' | translate}}" icon="pi pi-check"></p-button>
                 </ng-template>
             </p-card>
             <p-card header="Alhambra Lager Singular Sin Alcohol"
@@ -74,7 +53,7 @@
                     <a>leer mas...</a>
                 </p>
                 <ng-template pTemplate="footer">
-                    <p-button label="Ir al producto" icon="pi pi-check"></p-button>
+                    <p-button label="{{'go to product' | translate}}" icon="pi pi-check"></p-button>
                 </ng-template>
             </p-card>
         </div>
